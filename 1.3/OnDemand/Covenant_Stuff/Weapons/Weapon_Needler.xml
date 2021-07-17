@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="CovenantNeedler">
+		<defName>O21_Halo_CovenantNeedler</defName>
+		<label>Needler</label>
+		<description>The Type-33 Guided Munitions Launcher, more commonly known as the Needler, is a Covenant anti-infantry weapon. It is used by Sangheili, Unggoy, Skirmishers, Yanme'e, and Kig-Yar.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Covenant/Needler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_SmallWeapons</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.55</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.15</PsychicSensitivity>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_CovenantNeedler</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>25</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>O21_Halo_Covenant_NeedlerSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+		</tools>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+			<li>CovenantRanged</li>
+			<li>CovenantNeedler</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantRanged</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>O21_Halo_Bullet_CovenantNeedler</defName>
+		<label>needle shard</label>
+		<graphicData>
+			<texPath>Things/Projectile/Needle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>O21_Halo_Damage_Needler</damageDef>
+			<damageAmountBase>4</damageAmountBase>
+			<armorPenetrationBase>0.16</armorPenetrationBase>
+			<speed>80</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="CovenantNeedler">
+		<defName>O21_Halo_SOSNeedler</defName>
+		<label>Type-33 Guided Munitions Launcher (sos)</label>
+		<graphicData>
+			<texPath>Things/Weapon/SwordsOfSanghelios/Needler</texPath>
+		</graphicData>
+		<weaponTags Inherit="False">
+			<li>SOSWeapon</li>
+			<li>SOSRanged</li>
+			<li>SOSNeedler</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>SOSRanged</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="O21HaloInsurgentBase" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>O21_Halo_Faction_Innies</defaultFactionType>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<invNutrition>2.55</invNutrition>
+		<apparelTags>
+            <li>UNSCFatigues</li>
+            <li>StolenUNSCApparel</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_fatigues</li>
+		</apparelRequired>
+		<weaponTags>
+			<li>UNSCWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21HaloInsurgentBase">
+		<defName>O21_Halo_Innie_Militia</defName>
+		<label>militia</label>
+		<combatPower>35</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<weaponMoney>160~250</weaponMoney>
+		<apparelMoney>200~800</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<techHediffsChance>0.06</techHediffsChance>
+		<techHediffsMoney>50~600</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21HaloInsurgentBase">
+		<defName>O21_Halo_Innie_Insurgent</defName>
+		<label>insurgent</label>
+		<combatPower>55</combatPower>
+		<isFighter>true</isFighter>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<apparelMoney>400~850</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<weaponMoney>250~400</weaponMoney>
+		<techHediffsChance>0.04</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21HaloInsurgentBase">
+		<defName>O21_Halo_Innie_InsurgentTrader</defName>
+		<label>innie trader</label>
+		<trader>true</trader>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>200~200</weaponMoney>
+		<apparelMoney>400~1000</apparelMoney>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>600~1500</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21HaloInsurgentBase">
+		<defName>O21_Halo_Innie_CellLeader</defName>
+		<label>cell leader</label>
+		<labelPlural>cell leaders</labelPlural>
+		<combatPower>40</combatPower>
+		<factionLeader>true</factionLeader>
+		<minGenerationAge>30</minGenerationAge>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>200~2200</weaponMoney>
+		<apparelMoney>700~2200</apparelMoney>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>600~1500</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+</Defs>

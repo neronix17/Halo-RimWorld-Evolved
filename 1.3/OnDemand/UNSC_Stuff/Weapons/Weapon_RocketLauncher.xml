@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="UNSCRocketLauncher">
+		<defName>O21_Halo_UNSC_RocketLauncher</defName>
+		<label>UNSC Rocket Launcher</label>
+		<description>The M41 Surface-to-Surface Rocket Medium Anti-Vehicle/Assault Weapon formally known as the Medium Anti-Vehicle / Assault Weapon, Bore 102mm, M41 Surface-to-Surface Rocket Launcher, and commonly known as the Rocket Launcher or the SPNKr Rocket Launcher, is a heavy ordnance weapon of the UNSC arsenal.</description>
+		<graphicData>
+			<texPath>Things/Weapon/UNSC/M41</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>			
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<WorkToMake>14000</WorkToMake>
+			<Mass>4.2</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.72</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>UNSCWeapon</li>
+			<li>UNSCRanged</li>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCRanged</li>
+		</tradeTags>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_UNSC_HeavyWeapons</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_RocketLauncher</defaultProjectile>
+				<warmupTime>1.3</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        		<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<forcedMissRadius>2</forcedMissRadius>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>O21_Halo_UNSC_RocketLauncherSound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>O21_Halo_Bullet_RocketLauncher</defName>
+		<label>rocket</label>
+		<graphicData>
+			<texPath>Things/Projectile/Rocket_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<explosionRadius>2.5</explosionRadius>
+			<speed>50</speed>
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<soundExplode>O21_Halo_UNSC_RocketExplosion</soundExplode>
+		</projectile>
+	</ThingDef>
+
+</Defs>

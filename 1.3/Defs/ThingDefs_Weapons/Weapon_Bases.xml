@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="O21HaloLaserGraphicBase">
+		<defName>O21_Halo_LaserGraphic</defName>
+		<thingClass>O21Toolbox.Laser.LaserBeamGraphic</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<label>laser beam</label>
+		
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+	</ThingDef>
+
+	<ThingDef Name="O21LaserBeamBase" ParentName="BaseBullet" Abstract="True">
+		<thingClass>O21Toolbox.Laser.LaserBeam</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<beamGraphic>O21_Halo_LaserGraphic</beamGraphic>
+	 
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+	
+		<explosionEffect>O21_Halo_LaserImpact</explosionEffect>
+		<hitLivingEffect>O21_Halo_LaserLivingImpact</hitLivingEffect>
+		
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<speed>10000</speed>
+		</projectile>
+		
+		<seam>0.25</seam>
+        <lifetime>60</lifetime>
+	</ThingDef>
+
+</Defs>

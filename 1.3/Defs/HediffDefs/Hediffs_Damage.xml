@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>O21_Halo_Covenant_PlasmaBurn</defName>
+		<label>plasma burn</label>
+        <description>the burn that remains from plasma weapons.</description>
+    	<labelNoun>a plasma burn</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>sutured</labelTendedWellInner>
+				<labelSolidTendedWell>set</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>plasma burn scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.005</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.0015</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Burned away</destroyedLabel>
+			<destroyedOutLabel>Burned away</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>O21_Halo_Covenant_NeedlerShard</defName>
+		<label>needler shard</label>
+        <description>an unexploded needler shard, if too many build up they'll set off all at once for an even larger explosion.</description>
+    	<labelNoun>a needler shard</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>sutured</labelTendedWellInner>
+				<labelSolidTendedWell>set</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>scar</permanentLabel>
+			</li>
+			<li Class="Halo.HediffCompProperties_DelayedBlam">
+				<tendedPrevents>false</tendedPrevents>
+				<timeTillBlam>150</timeTillBlam>
+				<explosionSound>O21_Halo_Covenent_NeedlerExplosion</explosionSound>
+				<explosiveDamageType>O21_Halo_Damage_Plasma</explosiveDamageType>
+				<damageAmountBase>20</damageAmountBase>
+				<armorPenetrationBase>0.2</armorPenetrationBase>
+				<explosiveRadius>1.2</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>True</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.005</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.0015</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>cut off</destroyedLabel>
+			<destroyedOutLabel>cut off</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+</Defs>

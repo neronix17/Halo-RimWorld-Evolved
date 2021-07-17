@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_PlasmaImpact</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/Plasma_Rifle_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>        
+					<max>100.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_PlasmaPistolSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Plasma_Pistol_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_PlasmaRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Plasma_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_CarbineSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Carbine_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_BeamRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Beam_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_SpikeRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Spike_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>O21_Halo_Covenant_PlasmaCannonSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Plasma_Cannon_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_PlasmaCannonImpact</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/Plasma_Cannon_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>O21_Halo_Covenant_FuelRodCannonSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Fuel_Rod_Cannon_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_FuelRodCannonImpact</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/Fuel_Rod_Cannon_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>O21_Halo_Covenant_BruteShotSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Brute_Shot_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_BruteShotImpact</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/Brute_Shot_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>O21_Halo_Covenant_NeedlerSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>3</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/Covenant/Needler_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_NeedlerImpact</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/Needler_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

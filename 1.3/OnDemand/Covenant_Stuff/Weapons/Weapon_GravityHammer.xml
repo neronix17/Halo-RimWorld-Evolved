@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon" Name="CovenantGravityHammer">
+		<defName>O21_Halo_CovenantGravityHammer</defName>
+		<label>Gravity Hammer</label>
+		<description>The Type-2 Energy Weapon/Hammer (or T2 EW/H), more commonly known as the Gravity Hammer, is a powerful, two-handed melee weapon used by the Jiralhanae in the Covenant Empire.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Covenant/GravityHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.85</drawSize>	
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+			<li>CovenantMelee</li>
+			<li>CovenantGravityHammer</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>4.2</Mass>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_Melee</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

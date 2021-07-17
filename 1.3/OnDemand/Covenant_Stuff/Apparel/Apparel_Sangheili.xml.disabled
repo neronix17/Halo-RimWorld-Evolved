@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- ====== Armors ====== -->
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="EliteMinorArmor">
+		<defName>O21_Halo_Covenant_EliteMinorArmor</defName>
+		<label>sangheili elite minor armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>The armor commonly worn by Sangheili among the ranks of the Covenant.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Sangheili/Minor/EliteMinor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(56, 71, 102)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMinorArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+		</recipeMaker>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<MarketValue>500</MarketValue>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>75</Insulation_Cold>
+			<Insulation_Heat>75</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Apparel_Armor</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags>
+				<li>CovenantApparel</li>
+				<li>CovenantEliteMinor</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Sangheili/Minor/EliteMinor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="EliteMinorArmor">
+		<defName>O21_Halo_SOS_EliteMinorArmor</defName>
+		<label>sangheili elite minor armor (sos)</label>
+		<description>The armor commonly worn by the Sangheili in the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<tradeTags Inherit="False">
+			<li>SOSApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteMinor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="EliteMinorArmor">
+		<defName>O21_Halo_Covenant_EliteMajorArmor</defName>
+		<label>sangheili elite major armor</label>
+		<description>The armor commonly worn by the Sangheili in the ranks of the Covenant.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMajorArmor</researchPrerequisite>
+		</recipeMaker>
+		<tradeTags Inherit="False">
+			<li>SOSApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags Inherit="False">
+				<li>CovenantApparel</li>
+				<li>CovenantEliteMajor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="EliteMinorArmor">
+		<defName>O21_Halo_SOS_EliteMajorArmor</defName>
+		<label>sangheili elite major armor (sos)</label>
+		<description>The armor commonly worn by the Sangheili in the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMajorArmor</researchPrerequisite>
+		</recipeMaker>
+		<tradeTags Inherit="False">
+			<li>SOSApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteMinor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="EliteMajorArmor">
+		<defName>O21_Halo_Covenant_EliteUltraArmor</defName>
+		<label>sangheili elite ultra armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>The armor commonly worn by Sangheili commanders among the ranks of the Covenant.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Sangheili/Major/EliteMajor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliUltraArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+		</recipeMaker>
+		<costList>
+			<Steel>60</Steel>
+			<Plasteel>20</Plasteel>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<MarketValue>900</MarketValue>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.37</ArmorRating_Heat>
+			<Insulation_Cold>75</Insulation_Cold>
+			<Insulation_Heat>75</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Apparel_Armor</li>
+		</thingCategories>
+		<apparel>
+			<tags>
+				<li>CovenantApparel</li>
+				<li>CovenantEliteUltra</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Sangheili/Major/EliteMajor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="EliteMajorArmor">
+		<defName>O21_Halo_SOS_EliteUltraArmor</defName>
+		<label>sangheili elite ultra armor (sos)</label>
+		<description>The armor commonly worn by Sangheili commanders among the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteUltra</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<!-- ====== Helmets ====== -->
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="EliteMinorHelmet">
+		<defName>O21_Halo_Covenant_EliteMinorHelmet</defName>
+		<label>sangheili elite minor helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>The helmet commonly worn by the Sangheili in the ranks of the Covenant.</description>
+		<graphicData> 
+			<texPath>Things/Apparel/Sangheili/NewMinor/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+			<color>(56, 71, 102)</color>
+		</graphicData>
+		<recipeMaker>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMinorArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>4500</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>250</MarketValue>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Apparel_Helmet</li>
+		</thingCategories>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>CovenantApparel</li>
+				<li>CovenantEliteMinor</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Sangheili/NewMinor/Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="EliteMinorHelmet">
+		<defName>O21_Halo_SOS_EliteMinorHelmet</defName>
+		<label>sangheili elite minor helmet (sos)</label>
+		<description>The helmet commonly worn by the Sangheili in the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteMinor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="EliteMinorHelmet">
+		<defName>O21_Halo_Covenant_EliteMajorHelmet</defName>
+		<label>sangheili elite major helmet</label>
+		<description>The helmet commonly worn by Sangheili officers among the ranks of the Covenant.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMajorArmor</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>CovenantApparel</li>
+				<li>CovenantEliteMajor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="EliteMinorHelmet">
+		<defName>O21_Halo_SOS_EliteMajorHelmet</defName>
+		<label>sangheili elite major helmet (sos)</label>
+		<description>The helmet commonly worn by Sangheili officers among the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliMajorArmor</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteMajor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="EliteMinorHelmet" Name="EliteMajorHelmet">
+		<defName>O21_Halo_Covenant_EliteUltraHelmet</defName>
+		<label>sangheili elite ultra helmet</label>
+		<description>The helmet commonly worn by Sangheili commanders among the ranks of the Covenant.</description>
+		<graphicData> 
+			<texPath>Things/Apparel/Sangheili/Major/EliteMajorHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_Covenant_SangheiliUltraArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+		</recipeMaker>
+		<costList Inherit="false">
+			<Steel>25</Steel>
+			<Plasteel>5</Plasteel>
+		</costList>
+		<apparel>
+			<tags Inherit="False">
+				<li>CovenantApparel</li>
+				<li>CovenantEliteUltra</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Sangheili/Major/EliteMajorHelmet</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>400</MarketValue>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.82</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="EliteMajorHelmet">
+		<defName>O21_Halo_SOS_EliteUltraHelmet</defName>
+		<label>sangheili elite ultra helmet (sos)</label>
+		<description>The helmet commonly worn by Sangheili commanders among the ranks of the Swords of Sanghelios.</description>
+		<graphicData>
+			<color>(114, 44, 44)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>SOSApparel</li>
+				<li>SOSEliteUltra</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

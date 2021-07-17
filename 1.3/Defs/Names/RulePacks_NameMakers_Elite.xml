@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>O21_Halo_NamerPerson_Elite</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Elite1][Elite2][Elite3]&apos;[Elite4][Elite5][Elite9]</li>
+				<li>name->[Elite2][Elite3]&apos;[Elite4][Elite5][Elite9]</li>
+				<li>name->[Elite1][Elite2][Elite3]&apos;[Elite4][Elite5]</li>
+				<li>name->[Elite2][Elite3]&apos;[Elite4][Elite5]</li>
+				<li>name->[Elite6][Elite7][Elite8]&apos;[Elite4][Elite5][Elite9]</li>
+				<li>name->[Elite6][Elite7][Elite8]&apos;[Elite4][Elite5]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Elite1</keyword>
+					<path>Elite/EliteNameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite2</keyword>
+					<path>Elite/EliteNameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite3</keyword>
+					<path>Elite/EliteNameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite4</keyword>
+					<path>Elite/EliteNameparts4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite5</keyword>
+					<path>Elite/EliteNameparts5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite6</keyword>
+					<path>Elite/EliteNameparts6</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite7</keyword>
+					<path>Elite/EliteNameparts7</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite8</keyword>
+					<path>Elite/EliteNameparts8</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Elite9</keyword>
+					<path>Elite/EliteNameparts9</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

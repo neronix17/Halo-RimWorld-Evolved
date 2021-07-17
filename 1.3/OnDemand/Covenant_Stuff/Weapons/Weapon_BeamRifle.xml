@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="CovenantBeamRifle">
+		<defName>O21_Halo_CovenantBeamRifle</defName>
+		<label>Beam Rifle</label>
+		<description>The Type-50 Sniper Rifle System, otherwise known as the Particle Beam Rifle, is a Covenant long-range weapon and the counterpart of the UNSC Sniper Rifle. They are most commonly seen being used by Kig-Yar, although Sangheili and even Jiralhanae are also seen using Beam Rifles on occasion.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Covenant/BeamRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.8</Mass>
+			<AccuracyTouch>0.30</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_LongRangeWeapons</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+			<li>CovenantRanged</li>
+			<li>CovenantBeamRifle</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantRanged</li>
+		</tradeTags>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_CovenantBeamRifle</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>41</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>O21_Halo_Covenant_BeamRifleSound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="O21Toolbox.Laser.LaserBeamDef" ParentName="O21LaserBeamBase">
+		<defName>O21_Halo_Bullet_CovenantBeamRifle</defName>
+		<label>beam rifle shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/BeamRifleShotNew</texPath>
+		</graphicData>
+		<textures Inherit="False">
+			<li>Things/Projectile/BeamRifleShotNew</li>
+		</textures>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>O21_Halo_Damage_Plasma</damageDef>
+			<damageAmountBase>32</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>105</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>6</amount>
+					<armorPenetration>0.5</armorPenetration>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="CovenantBeamRifle">
+		<defName>O21_Halo_SOSBeamRifle</defName>
+		<label>Type-50 Sniper Rifle System (sos)</label>
+		<graphicData>
+			<texPath>Things/Weapon/SwordsOfSanghelios/BeamRifle</texPath>
+		</graphicData>
+		<weaponTags Inherit="False">
+			<li>SOSWeapon</li>
+			<li>SOSRanged</li>
+			<li>SOSBeamRifle</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>SOSRanged</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

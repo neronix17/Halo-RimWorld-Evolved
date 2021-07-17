@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>O21_Halo_NamerPerson_Brute</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Brute1][Brute2][Brute3][Brute2][Brute4][Brute5]</li>
+				<li>name->[Brute1][Brute2][Brute3][Brute2][Brute5]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Brute1</keyword>
+					<path>Brute/BruteNameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Brute2</keyword>
+					<path>Brute/BruteNameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Brute3</keyword>
+					<path>Brute/BruteNameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Brute4</keyword>
+					<path>Brute/BruteNameparts4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Brute5</keyword>
+					<path>Brute/BruteNameparts5</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

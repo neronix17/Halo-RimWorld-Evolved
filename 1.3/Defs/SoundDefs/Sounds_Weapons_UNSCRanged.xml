@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_AssaultRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>6</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Assault_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_BattleRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Battle_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_SMGSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/SMG_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_PistolSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Pistol_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_RocketLauncherSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Rocket_Launcher_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_ShotgunSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Shotgun_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_SniperRifleSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Sniper_Rifle_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_SpartanLaserSound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/UNSC/Spartan_Laser_Shot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>25.0</min>        
+					<max>40.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<RulePackDef>
+		<defName>O21_Halo_SettlementNamer_UNSC</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[UNSCPrefix] [UNSCSuffix]</li>
+				<li>name->[UNSCSuffix] [UNSCLetter]-[UNSCNumber][UNSCNumber]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>UNSCPrefix</keyword>
+					<path>Settlements/UNSC/Prefix</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>UNSCExtra</keyword>
+					<path>Settlements/UNSC/Extra</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>UNSCSuffix</keyword>
+					<path>Settlements/UNSC/Suffix</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>UNSCNumber</keyword>
+					<path>Settlements/UNSC/Number</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>UNSCLetter</keyword>
+					<path>Settlements/UNSC/Letter</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+  	</RulePackDef>
+
+</Defs>

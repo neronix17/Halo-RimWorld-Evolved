@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>O21_Halo_Damage_Plasma</defName>
+		<label>plasma</label>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has given in to plasma burns.</deathMessage>
+		<hediff>O21_Halo_Covenant_PlasmaBurn</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Heat</armorCategory>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		
+		<defaultDamage>25</defaultDamage>
+		<buildingDamageFactor>1</buildingDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(0.55, 0.95, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.55, 0.9)</explosionColorEdge>
+		<soundExplosion>O21_Halo_Covenant_PlasmaImpact</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>O21_Halo_Damage_Needler</defName>
+		<label>needler shard</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has given in to needler shards.</deathMessage>
+		<hediff>O21_Halo_Covenant_NeedlerShard</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>O21_Halo_Damage_BruteShot</defName>
+		<label>brute shot</label>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has been blown away.</deathMessage>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		
+		<defaultDamage>25</defaultDamage>
+		<buildingDamageFactor>1</buildingDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<soundExplosion>O21_Halo_Covenant_BruteShotImpact</soundExplosion>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>O21_Halo_Damage_FuelRodCannon</defName>
+		<label>fuel rod shot</label>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has been refueled.</deathMessage>
+		<hediff>O21_Halo_Covenant_PlasmaBurn</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		
+		<defaultDamage>25</defaultDamage>
+		<buildingDamageFactor>1</buildingDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<soundExplosion>O21_Halo_Covenant_FuelRodCannonImpact</soundExplosion>
+	</DamageDef>
+
+</Defs>

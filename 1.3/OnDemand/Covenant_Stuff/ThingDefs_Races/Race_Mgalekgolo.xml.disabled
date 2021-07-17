@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>Mgalekgolo_Settings</defName>
+		<pawnKindSettings>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Mgalekgolo</li>
+							</kindDefs>
+							<chance>20.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>CovenantPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Mgalekgolo</li>
+							</kindDefs>
+							<chance>20.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>CovenantPlayerColony</li> 
+					</factionDefs>
+				</li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Alien_Mgalekgolo">
+		<defName>Alien_Mgalekgolo</defName>
+		<label>Mgalekgolo</label>
+		<description>Mgalekgolo (Ophis congregatio, meaning "serpent union"), more commonly known as Hunters, are a unique gestalt of smaller creatures known as Lekgolo, which are orange, worm-like creatures. Lekgolo were known to group together and form a Mgalekgolo for protection during combat, due to the form's increased strength at the cost of maneuverability. When grouped together, the intelligence of the Mgalekgolo colony is increased with every additional Lekgolo.</description>
+		<alienRace>
+			<generalSettings>
+				<immuneToAge>false</immuneToAge>
+				<humanRecipeImport>true</humanRecipeImport>
+				<forcedRaceTraitEntries />
+				<disallowedTraits />
+				<chemicalSettings />
+				<factionRelations />	
+				<notXenophobistTowards />
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<alienPartGenerator>
+					<useGenderedHeads>false</useGenderedHeads>
+					<aliencrowntypes>
+						<li>Mgalekgolo</li>
+					</aliencrowntypes>
+					<alienbodytypes>
+						<li>Hulk</li>
+					</alienbodytypes>
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+								        <only>(255,255,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+					<customDrawSize>(1.45, 1.45)</customDrawSize>
+					<customHeadDrawSize>(1.45, 1.45)</customHeadDrawSize>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths Inherit="false">
+				<li>
+					<head>Pawn/Mgalekgolo/Head/</head>
+					<body>Pawn/Mgalekgolo/Body/</body>
+				</li>
+				<li>
+					<lifeStageDefs>
+						<li>HumanlikeAdult</li>
+					</lifeStageDefs>
+				</li>
+			</graphicPaths>
+			<hairSettings>
+				<hasHair>false</hasHair>
+			</hairSettings>
+			<relationSettings>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			</relationSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughts />
+			</thoughtSettings>
+			<raceRestriction>
+				<apparelList>
+					<li>O21_Halo_Covenant_HunterArmor</li>
+					<li>O21_Halo_Covenant_HunterHelmet</li>
+				</apparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<whiteApparelList>
+					<li>Apparel_ShieldBelt</li>
+				</whiteApparelList>
+				<weaponList>
+					<li>O21_Halo_CovenantAssaultCannon</li>
+					<li>O21_Halo_CovenantHunterShield</li>
+				</weaponList>
+			</raceRestriction>
+		</alienRace>
+		<statBases>
+			<MarketValue>4000</MarketValue>
+			<MoveSpeed>3.5</MoveSpeed>
+			<Flammability>0.3</Flammability>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>32</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<PsychicSensitivity>1.0</PsychicSensitivity>
+			<MiningSpeed>2.0</MiningSpeed>
+			<HungerRateMultiplier>0.3</HungerRateMultiplier>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>24</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>24</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<hasGenders>False</hasGenders>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>100</lifeExpectancy>
+			<leatherDef>Leather_Sangheili</leatherDef>
+			<nameGenerator>O21_Halo_NamerPerson_Hunter</nameGenerator>
+			<body>Human</body>
+			<meatColor>(237, 204, 204)</meatColor>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>2.0</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>BabyMgalekgoloStage</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>ChildMgalekgoloStage</def>
+					<minAge>3</minAge>
+				</li>
+				<li>
+					<def>TeenMgalekgoloStage</def>
+					<minAge>11</minAge>
+				</li>
+				<li>
+					<def>AdultMgalekgoloStage</def>
+					<minAge>18</minAge>
+				</li>
+				<li>
+					<def>ElderMgalekgoloStage</def>
+					<minAge>80</minAge>
+				</li>
+				<li>
+					<def>AncestorMgalekgoloStage</def>
+					<minAge>120</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(14,0)</li>
+					<li>(16,100)</li>
+					<li>(50,100)</li>
+					<li>(60,30)</li>
+					<li>(70,18)</li>
+					<li>(80,10)</li>
+					<li>(90,3)</li>
+					<li>(120,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>O21_Halo_HediffGiver_MgalekgoloBond</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>InstallArchotechEye</li>
+			<li>InstallArchotechArm</li>
+			<li>InstallArchotechLeg</li>
+			<li>InstallPowerClaw</li>
+			<li>InstallBionicEye</li>
+			<li>InstallBionicArm</li>
+			<li>InstallBionicLeg</li>
+			<li>InstallBionicSpine</li>
+			<li>InstallBionicHeart</li>
+			<li>InstallBionicStomach</li>
+			<li>InstallBionicEar</li>
+			<li>InstallSimpleProstheticArm</li>
+			<li>InstallSimpleProstheticLeg</li>
+			<li>InstallSimpleProstheticHeart</li>
+			<li>InstallCochlearImplant</li>
+			<li>InstallPegLeg</li>
+			<li>InstallWoodenFoot</li>
+			<li>InstallDenture</li>
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<li>InstallNaturalHeart</li>
+			<li>InstallNaturalLung</li>
+			<li>InstallNaturalKidney</li>
+			<li>InstallNaturalLiver</li>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+		</recipes>
+	</AlienRace.ThingDef_AlienRace>
+	
+</Defs>

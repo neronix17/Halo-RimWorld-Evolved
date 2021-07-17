@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingDef ParentName="BaseMakeableGun" Name="CovenantBruteShot">
+		<defName>O21_Halo_CovenantBruteShot</defName>
+		<label>Brute Shot</label>
+		<description>The Type-25 Grenade Launcher or Brute Shot is a Covenant weapon favored exclusively by the Jiralhanae.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Covenant/BruteShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>			
+		</graphicData>
+		<comps>     
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>3.8</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.68</AccuracyShort>
+			<AccuracyMedium>0.71</AccuracyMedium>
+			<AccuracyLong>0.63</AccuracyLong>
+			<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_HeavyWeapons</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+			<li>CovenantRanged</li>
+			<li>CovenantBruteShot</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantRanged</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_CovenantBruteShot</defaultProjectile>
+				<warmupTime>0.30</warmupTime>
+				<range>28</range>
+				<forcedMissRadius>0.5</forcedMissRadius>
+				<ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>O21_Halo_Covenant_BruteShotSound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.9</cooldownTime>
+		  	</li>
+		</tools>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>O21_Halo_Bullet_CovenantBruteShot</defName>
+		<label>brute shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/BruteShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>O21_Halo_Damage_BruteShot</damageDef>
+			<explosionRadius>0.5</explosionRadius>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.32</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>100</speed>
+			<soundExplode>O21_Halo_Covenant_BruteShotImpact</soundExplode>
+		</projectile>
+	</ThingDef>
+
+</Defs>

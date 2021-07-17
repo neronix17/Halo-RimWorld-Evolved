@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="UNSCPistol">
+		<defName>O21_Halo_UNSC_Pistol</defName>
+		<label>UNSC Magnum Sidearm</label>
+		<description>The M6D Personal Defense Weapon System, otherwise known as the M6D Magnum Sidearm, is a United Nations Space Command sidearm and is one of the variants of Misriah Armory's M6 handgun series.</description>
+		<graphicData>
+			<texPath>Things/Weapon/UNSC/M6D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>			
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.39</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>UNSCWeapon</li>
+			<li>UNSCRanged</li>
+			<li>UNSCPistol</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCRanged</li>
+		</tradeTags>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_UNSC_SmallWeapons</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_UNSCPistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>26</range>
+				<ticksBetweenBurstShots>80</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>O21_Halo_UNSC_PistolSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>O21_Halo_Bullet_UNSCPistol</defName>
+		<label>M6D bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

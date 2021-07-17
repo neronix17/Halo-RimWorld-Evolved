@@ -1,0 +1,5 @@
+Base
+Firebase
+Outpost
+Fort
+Station

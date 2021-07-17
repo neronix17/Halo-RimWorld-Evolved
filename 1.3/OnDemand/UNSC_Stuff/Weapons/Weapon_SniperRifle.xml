@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="UNSCSniperRifle">
+		<defName>O21_Halo_UNSC_SniperRifle</defName>
+		<label>UNSC Sniper Rifle</label>
+		<description>The Sniper Rifle System 99 Anti-Matériel, more formally known as the Special Applications Rifle, Caliber 14.5 mm, SRS99, is a United Nations Space Command sniper rifle.</description>
+		<graphicData>
+			<texPath>Things/Weapon/UNSC/SRS99</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>			
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>UNSCWeapon</li>
+			<li>UNSCRanged</li>
+			<li>UNSCSniperRifle</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCRanged</li>
+		</tradeTags>
+		<costList>
+			<Steel>85</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_UNSC_LongRangeWeapons</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_UNSCSniperRifle</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>45</range>
+				<soundCast>O21_Halo_UNSC_SniperRifleSound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="O21Toolbox.Laser.LaserBeamDef"  ParentName="O21LaserBeamBase">
+		<defName>O21_Halo_Bullet_UNSCSniperRifle</defName>
+		<label>SRS99 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/SniperStream</texPath>
+		</graphicData>
+		<textures Inherit="False">
+			<li>Things/Projectile/SniperStream</li>
+		</textures>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<stoppingPower>1.75</stoppingPower>
+			<speed>110</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

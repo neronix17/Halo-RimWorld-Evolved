@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<FactionDef>
+		<defName>O21_Halo_CovenantPlayerColony</defName>
+		<label>Covenant Colony</label>
+		<description>Your own community.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Unggoy</basicMemberKind>
+		<pawnsPlural>Covenant</pawnsPlural>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+		<techLevel>Ultra</techLevel>
+		<backstoryCategories>
+			<li>CovenantBackstory</li>
+		</backstoryCategories>
+    	<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>CovenantHair</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+</Defs>

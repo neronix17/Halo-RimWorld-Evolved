@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun" Name="CovenantCarbine">
+		<defName>O21_Halo_CovenantCarbine</defName>
+		<label>Covenant Carbine</label>
+		<description>The Type-51 Carbine, also known as the Covenant Carbine, is a Covenant infantry firearm carried commonly by the Jiralhanae, Kig-Yar, and Sangheili.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Covenant/Carbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.6</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.72</AccuracyShort>
+			<AccuracyMedium>0.63</AccuracyMedium>
+			<AccuracyLong>0.52</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_Covenant_Rifles</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+			<li>CovenantRanged</li>
+			<li>CovenantCarbine</li>
+		</weaponTags>
+		<thingCategories>
+			<li>O21_Halo_Covenant_Weapons</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CovenantRanged</li>
+		</tradeTags>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_Halo_Bullet_CovenantCarbine</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>O21_Halo_Covenant_CarbineSound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="O21Toolbox.Laser.LaserBeamDef" ParentName="O21LaserBeamBase">
+		<defName>O21_Halo_Bullet_CovenantCarbine</defName>
+		<label>carbine beam</label>
+		<graphicData>
+			<texPath>Things/Projectile/CarbineShotNew</texPath>
+		</graphicData>
+		<textures Inherit="False">
+			<li>Things/Projectile/CarbineShotNew</li>
+		</textures>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>O21_Halo_Damage_Plasma</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<stoppingPower>0.3</stoppingPower>
+			<speed>105</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>6</amount>
+					<armorPenetration>0.5</armorPenetration>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="CovenantCarbine">
+		<defName>O21_Halo_SOSCarbine</defName>
+		<label>Type-51 Carbine (sos)</label>
+		<graphicData>
+			<texPath>Things/Weapon/SwordsOfSanghelios/Carbine</texPath>
+		</graphicData>
+		<weaponTags Inherit="False">
+			<li>SOSWeapon</li>
+			<li>SOSRanged</li>
+			<li>SOSCarbine</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>SOSRanged</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

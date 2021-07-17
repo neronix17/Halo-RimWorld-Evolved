@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>ResearchTab_Covenant</defName>
+		<label>Covenant</label>
+	</ResearchTabDef>
+
+	<!-- Outer Rim Core Research-->
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_AutomatedTurrets</defName>
+		<label>Automated Turrets (Covenant)</label>
+		<description>Unlocks Covenant Automated Turrets.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_Armory</defName>
+		<label>Covenant Armory</label>
+		<description>Unlocks access to weapons and armour research and allows the building of the Covenant Armory to craft them at. [Armory not implemented yet, crafting is still done at the vanilla benches]</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_GruntArmor</defName>
+		<label>Unggoy Grunt Armor</label>
+		<description>Unlocks Grunt 'cannon fodder' armor.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_SangheiliMinorArmor</defName>
+		<label>Sangheili Minor Armor</label>
+		<description>Unlocks Elite trooper armor.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_SangheiliMajorArmor</defName>
+		<label>Sangheili Major Armor</label>
+		<description>Unlocks Elite officer armor.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_SangheiliMinorArmor</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_SangheiliUltraArmor</defName>
+		<label>Sangheili Ultra Armor</label>
+		<description>Unlocks Elite commander armor.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_SangheiliMajorArmor</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_BruteMinorArmor</defName>
+		<label>Jiralhanae Minor Armor</label>
+		<description>Unlocks Brute trooper armor.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_BruteMajorArmor</defName>
+		<label>Jiralhanae Major Armor</label>
+		<description>Unlocks Brute officer armor.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_BruteMinorArmor</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_BruteChieftainArmor</defName>
+		<label>Jiralhanae Chieftain Armor</label>
+		<description>Unlocks Brute commander armor.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_BruteMajorArmor</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_HunterArmor</defName>
+		<label>Mgalekgolo Hunter Armor</label>
+		<description>Unlocks Hunter 'heavy trooper' armor and shield.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_Rifles</defName>
+		<label>Rifles</label>
+		<description>Unlocks the Covenant weapons:
+- Carbine
+- Plasma Rifle
+- Spike Rifle</description>
+		<baseCost>900</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_LongRangeWeapons</defName>
+		<label>Long Range Weapons</label>
+		<description>Unlocks the Covenant weapons:
+- Beam Rifle</description>
+		<baseCost>400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_SmallWeapons</defName>
+		<label>Small Weapons</label>
+		<description>Unlocks the Covenant weapons:
+- Plasma Pistol
+- Needler</description>
+		<baseCost>600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_HeavyWeapons</defName>
+		<label>Heavy Weapons</label>
+		<description>Unlocks the Covenant weapons:
+- Fuel Rod Cannon
+- Brute Shot</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_Melee</defName>
+		<label>Melee Weapons</label>
+		<description>Unlocks the Covenant weapons:
+- Gravity Hammer
+- Energy Sword</description>
+		<baseCost>600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- ResearchProjectDef>
+		<tab>ResearchTab_Covenant</tab>
+		<defName>O21_Halo_Covenant_Explosives</defName>
+		<label>Explosives</label>
+		<description>Unlocks the Covenant weapons:
+- Plasma Grenades
+- Spike Grenades
+
+[Not Yet Implemented]</description>
+		<baseCost>600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Halo_Covenant_Armory</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef -->
+
+</Defs>

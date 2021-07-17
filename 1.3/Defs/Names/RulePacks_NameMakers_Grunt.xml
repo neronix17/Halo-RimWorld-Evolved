@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>O21_Halo_NamerPerson_Grunt</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Grunt2][Grunt1][Grunt2][Grunt1][Grunt2][Grunt9]</li>
+				<li>name->[Grunt4][Grunt1][Grunt2]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Grunt1</keyword>
+					<path>Grunt/GruntNameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Grunt2</keyword>
+					<path>Grunt/GruntNameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Grunt3</keyword>
+					<path>Grunt/GruntNameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Grunt4</keyword>
+					<path>Grunt/GruntNameparts4</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

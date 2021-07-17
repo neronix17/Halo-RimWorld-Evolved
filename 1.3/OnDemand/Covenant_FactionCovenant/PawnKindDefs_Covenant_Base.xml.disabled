@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="CovenantAbstractBase" Abstract="True">
+		<defaultFactionType>O21_Halo_Faction_Covenant</defaultFactionType>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<maxGenerationAge>50</maxGenerationAge>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>CovenantBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<itemQuality>Good</itemQuality>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>2</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>20000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>CovenantApparel</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>20000</min>
+			<max>20000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CovenantWeapon</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>1800</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<isFighter>true</isFighter>
+		<techHediffsChance>0.1</techHediffsChance>
+		<invNutrition>2.55</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>-10</min>
+						<max>50</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineUltratech</thingDef>
+					<countRange>
+						<min>-10</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="CovenantAbstractBase" Name="UnggoyAbstractBase" Abstract="True">
+		<race>Alien_Unggoy</race>
+		<combatPower>40</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+			        <li>UnggoyBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="CovenantAbstractBase" Name="SangheiliAbstractBase" Abstract="True">
+		<race>Alien_Sangheili</race>
+		<combatPower>200</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+			        <li>SangheiliBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="CovenantAbstractBase" Name="JiralhanaeAbstractBase" Abstract="True">
+		<race>Alien_Jiralhanae</race>
+		<combatPower>200</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+			        <li>JiralhanaeBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="CovenantAbstractBase" Name="MgalekgoloAbstractBase" Abstract="True">
+		<race>Alien_Mgalekgolo</race>
+		<combatPower>400</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+			        <li>MgalekgoloBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+</Defs>

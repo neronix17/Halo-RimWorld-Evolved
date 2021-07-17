@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<HediffGiverSetDef>
+		<defName>O21_Halo_HediffGiver_MgalekgoloBond</defName>
+		<hediffGivers>
+			<li Class="Halo.HediffGiver_Racial">
+				<hediff>O21_Halo_Hediff_MgalekgoloBond</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>O21_Halo_Hediff_MgalekgoloBond</defName>
+        <description>The bond between two Mgalekgolo, makes them berserk if broken.</description>
+		<hediffClass>Halo.Hediff_MgalekgoloBond</hediffClass>
+		<label>Hunter Bond</label>
+		<defaultLabelColor>RGB(235, 52, 232)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+	</HediffDef>
+	
+</Defs>

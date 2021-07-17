@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<RulePackDef>
+		<defName>O21_Halo_SettlementNamer_Covenant</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[CovPrefix] [CovSuffix]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>CovPrefix</keyword>
+					<path>Settlements/Covenant/Prefix</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CovExtra</keyword>
+					<path>Settlements/Covenant/Extra</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CovSuffix</keyword>
+					<path>Settlements/Covenant/Suffix</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+  	</RulePackDef>
+
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>O21_Halo_NamerPerson_Hunter</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Hunter1][Hunter2][Hunter3][Hunter2][Hunter3][Hunter2] '[Hunter3][Hunter2][Hunter3][Hunter2]' [Hunter3][Hunter2][Hunter4][Hunter2]</li>
+				<li>name->[Hunter2][Hunter3][Hunter2][Hunter3][Hunter2] '[Hunter3][Hunter2][Hunter3][Hunter2]' [Hunter3][Hunter2][Hunter4][Hunter2]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Hunter1</keyword>
+					<path>Hunter/HunterNameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Hunter2</keyword>
+					<path>Hunter/HunterNameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Hunter3</keyword>
+					<path>Hunter/HunterNameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Hunter4</keyword>
+					<path>Hunter/HunterNameparts4</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>O21_Halo_UNSC_fatigues</defName>
+		<label>unsc fatigues</label>
+		<techLevel>Spacer</techLevel>
+		<description>The fatigues commonly worn by UNSC Marines.</description>
+		<graphicData>
+			<texPath>Things/Apparel/UNSC/Marine/Fatigues</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_UNSC_MarineArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+		</recipeMaker>
+		<costList>
+			<Cloth>40</Cloth>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<MarketValue>500</MarketValue>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Apparel</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>UNSCFatigues</li>
+				<li>UNSCMarine</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/UNSC/Marine/Fatigues</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="UNSCMarineArmor">
+		<defName>O21_Halo_UNSC_MarineArmor</defName>
+		<label>unsc marine armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>The armor commonly worn by UNSC Marines.</description>
+		<graphicData>
+			<texPath>Things/Apparel/UNSC/Marine/Armor_Reach</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_UNSC_MarineArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+		</recipeMaker>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<MarketValue>500</MarketValue>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Apparel_Armor</li>
+		</thingCategories>
+		<tradeTags>
+			<li>UNSCApparel</li>
+		</tradeTags>
+		<apparel>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>UNSCMarine</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/UNSC/Marine/Armor_Reach</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="UNSCMarineHelmet">
+		<defName>O21_Halo_UNSC_MarineHelmet</defName>
+		<label>unsc marine helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>The helmet commonly worn by the UNSC Marines.</description>
+		<graphicData> 
+			<texPath>Things/Apparel/UNSC/Marine/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+            <!--<recipeUsers Inherit="False">
+                <li>O21_Halo_Covenant_ArmouryBench</li>
+            </recipeUsers>-->
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_UNSC_MarineArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>4500</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>250</MarketValue>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>O21_Halo_UNSC_Apparel_Helmet</li>
+		</thingCategories>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>UNSCApparel</li>
+				<li>UNSCMarine</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/UNSC/Marine/Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+
+</Defs>

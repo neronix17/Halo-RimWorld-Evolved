@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_GhostIdle</defName>
+		<sustain>False</sustain>
+		<context>MapOnly</context>
+		<eventNames />
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Vehicles/Covenant/GhostIdle</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>70.0</min>
+					<max>80.0</max>
+				</volumeRange>
+				<pitchRange>
+					<min>.9</min>
+					<max>1</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>15</max>
+				</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_GhostMoving</defName>
+		<sustain>true</sustain>
+		<context>MapOnly</context>
+		<eventNames />
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Vehicles/Covenant/GhostMoving</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>200.0</min>
+					<max>250.0</max>
+				</volumeRange>
+				<pitchRange>
+					<min>1.2</min>
+					<max>1.3</max>
+				</pitchRange>
+				<distRange>
+					<min>5</min>
+					<max>40</max>
+				</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_WraithIdle</defName>
+		<sustain>False</sustain>
+		<context>MapOnly</context>
+		<eventNames />
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Vehicles/Covenant/WraithIdle</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>70.0</min>
+					<max>80.0</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.3</min>
+					<max>0.5</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>15</max>
+				</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_WraithMoving</defName>
+		<sustain>true</sustain>
+		<context>MapOnly</context>
+		<eventNames />
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Vehicles/Covenant/WraithMoving</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>200.0</min>
+					<max>250.0</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9</min>
+					<max>1</max>
+				</pitchRange>
+				<distRange>
+					<min>5</min>
+					<max>40</max>
+				</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_WraithMortarShot</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>8</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Vehicles/Covenant/WraithMortarShot</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>        
+					<max>50.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_WraithMortarExplosion</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Vehicles/Covenant/WraithMortarExplosion</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>
+					<max>50.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_GhostExplode</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/GhostDeath</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>
+					<max>100.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_Covenant_WraithExplode</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/Covenant/WraithDeath</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>
+					<max>100.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

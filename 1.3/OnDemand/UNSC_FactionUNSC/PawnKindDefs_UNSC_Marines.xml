@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarinePFC</defName>
+		<label>Private First Class</label>
+		<labelPlural>Privates</labelPlural>
+		<combatPower>40</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCPistol</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineLCpl</defName>
+		<label>Lance Corporal</label>
+		<labelPlural>Lance Corporals</labelPlural>
+		<combatPower>60</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCAssaultRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineCpl</defName>
+		<label>Corporal</label>
+		<labelPlural>Corporals</labelPlural>
+		<combatPower>80</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineSgt</defName>
+		<label>Sergeant</label>
+		<labelPlural>Sergeants</labelPlural>
+		<combatPower>100</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCBattleRifle</li>
+			<li>UNSCShotgun</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineStaffSgt</defName>
+		<label>Staff Sergeant</label>
+		<labelPlural>Staff Sergeants</labelPlural>
+		<combatPower>120</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCShotgun</li>
+			<li>UNSCSniperRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineGySgt</defName>
+		<label>Gunnery Sergeant</label>
+		<labelPlural>Gunnery Sergeants</labelPlural>
+		<combatPower>140</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCSniperRifle</li>
+			<li>UNSCSMG</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineMSgt</defName>
+		<label>Master Sergeant</label>
+		<labelPlural>Master Sergeants</labelPlural>
+		<combatPower>160</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCSMG</li>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCMarineMGySgt</defName>
+		<label>Master Gunnery Sergeant</label>
+		<labelPlural>Master Gunnery Sergeants</labelPlural>
+		<factionLeader>True</factionLeader>
+		<combatPower>180</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCPistol</li>
+			<li>UNSCAssaultRifle</li>
+			<li>UNSCBattleRifle</li>
+			<li>UNSCShotgun</li>
+			<li>UNSCSniperRifle</li>
+			<li>UNSCSMG</li>
+			<li>UNSCRocketLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="UNSCMarineAbstractBase">
+		<defName>O21_Halo_PK_UNSCTrader</defName>
+		<label>UNSC trader</label>
+		<labelPlural>Trader</labelPlural>
+		<trader>true</trader>
+		<combatPower>20</combatPower>
+		<apparelTags Inherit="False">
+			<li>UNSCMarine</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_UNSC_MarineArmor</li>
+			<li>O21_Halo_UNSC_MarineHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>UNSCPistol</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>
