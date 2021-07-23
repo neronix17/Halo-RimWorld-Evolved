@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCPistol">
-		<defName>O21_Halo_UNSC_Pistol</defName>
-		<label>UNSC Magnum Sidearm</label>
-		<description>The M6D Personal Defense Weapon System, otherwise known as the M6D Magnum Sidearm, is a United Nations Space Command sidearm and is one of the variants of Misriah Armory's M6 handgun series.</description>
+		<defName>O21_Halo_UNSCPistol</defName>
+		<label>UNSC Pistol</label>
+		<description>A standard issue pistol used by the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/M6D</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.85</drawSize>			
 		</graphicData>
@@ -93,5 +93,14 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InniePistol</defName>
+		<description>A standard issue pistol used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

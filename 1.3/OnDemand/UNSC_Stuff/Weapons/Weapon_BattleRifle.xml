@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCBattleRifle">
-		<defName>O21_Halo_UNSC_BattleRifle</defName>
+		<defName>O21_Halo_UNSCBattleRifle</defName>
 		<label>UNSC Battle Rifle</label>
-		<description>The BR55 Service Rifle, commonly known as the Battle Rifle, is a United Nations Space Command infantry service rifle. It was first seen in Halo 2, although it has been in service since 2525. It is the older of the BR55 series rifles. It is most notable for its powerful three-round burst fire and accurate 2x scope, making it more efficient at farther ranges than the MA5 Assault rifle.</description>
+		<description>A standard issue Battle Rifle for the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/BR55</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_BattleRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>			
 		</graphicData>
@@ -93,5 +93,14 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieBattleRifle</defName>
+		<description>A standard issue battle rifle used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_BattleRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

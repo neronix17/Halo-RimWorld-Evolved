@@ -74,6 +74,7 @@
     <Compile Include="HediffComp_DelayedBlam.cs" />
     <None Include="HediffGiver_Racial.cs" />
     <None Include="Hediff_MgalekgoloBond.cs" />
+    <Compile Include="PatchOperation_OnDemand.cs" />
     <Compile Include="PatchOperation_SettingActive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

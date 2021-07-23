@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCShotgun">
-		<defName>O21_Halo_UNSC_Shotgun</defName>
+		<defName>O21_Halo_UNSCShotgun</defName>
 		<label>UNSC Shotgun</label>
-		<description>The M90 Close Assault Weapon System (M90 CAWS) is the UNSC's primary shotgun and is one of the most effective close range infantry weapons used by front line forces.</description>
+		<description>A standard issue shotgun used byt the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/M90CAWS</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.15</drawSize>			
 		</graphicData>
@@ -94,5 +94,14 @@
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieShotgun</defName>
+		<description>A standard issue shotgun used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

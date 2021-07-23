@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCSMG">
-		<defName>O21_Halo_UNSC_SMG</defName>
+		<defName>O21_Halo_UNSCSMG</defName>
 		<label>UNSC SMG</label>
-		<description>The M7/Caseless Submachine Gun, more simply known as the SMG, is a United Nations Space Command infantry and special operations weapon. A suppressed version of the M7/Caseless Submachine Gun, known simply as the M7S Submachine Gun, is also available for UNSC special operations.</description>
+		<description>A standard issue smg used by the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/M7</texPath>
+			<texPath>Things/Weapon/UNSC/UNSC_SMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.0</drawSize>			
 		</graphicData>
@@ -93,5 +93,14 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieSMG</defName>
+		<description>A standard issue smg used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_SMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

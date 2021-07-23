@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCRocketLauncher">
-		<defName>O21_Halo_UNSC_RocketLauncher</defName>
+		<defName>O21_Halo_UNSCRocketLauncher</defName>
 		<label>UNSC Rocket Launcher</label>
-		<description>The M41 Surface-to-Surface Rocket Medium Anti-Vehicle/Assault Weapon formally known as the Medium Anti-Vehicle / Assault Weapon, Bore 102mm, M41 Surface-to-Surface Rocket Launcher, and commonly known as the Rocket Launcher or the SPNKr Rocket Launcher, is a heavy ordnance weapon of the UNSC arsenal.</description>
+		<description>A standard issue rocket launcher used by the UNSC</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/M41</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_RocketLauncher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.5</drawSize>			
 		</graphicData>
@@ -94,5 +94,14 @@
 			<soundExplode>O21_Halo_UNSC_RocketExplosion</soundExplode>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieRocketLauncher</defName>
+		<description>A standard issue rocket launcher used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_RocketLauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCAssaultRifle">
-		<defName>O21_Halo_UNSC_AssaultRifle</defName>
+		<defName>O21_Halo_UNSCAssaultRifle</defName>
 		<label>UNSC Assault Rifle</label>
-		<description>The MA5B Individual Combat Weapon System (MA5B ICWS or MA5B assault rifle) is a standard-issue service rifle of the UNSC Marines.</description>
+		<description>A standard issue assault rifle for the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/MA5B</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.00</drawSize>			
 		</graphicData>
@@ -93,5 +93,14 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieAssaultRifle</defName>
+		<description>A standard issue assault rifle used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

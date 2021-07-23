@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StyleCategoryDef>
+		<defName>O21_Halo_CovHereticStyle</defName>
+		<label>Covenant Heretic</label>
+		<iconPath>HaloRE/World/InnieBaseIcon</iconPath>
+		<thingDefStyles>
+			<!-- <li>
+				<thingDef>Apparel_SimpleHelmet</thingDef>
+				<styleDef>Hindu_SimpleHelmet</styleDef>
+			</li>
+			<li>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<styleDef>Hindu_AdvancedHelmet</styleDef>
+			</li> -->
+			<li>
+				<thingDef>O21_Halo_UNSCAssaultRifle</thingDef>
+				<styleDef>O21_Halo_InnieAssaultRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCBattleRifle</thingDef>
+				<styleDef>O21_Halo_InnieBattleRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCPistol</thingDef>
+				<styleDef>O21_Halo_InniePistol</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCRocketLauncher</thingDef>
+				<styleDef>O21_Halo_InnieRocketLauncher</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCShotgun</thingDef>
+				<styleDef>O21_Halo_InnieShotgun</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCSniperRifle</thingDef>
+				<styleDef>O21_Halo_InnieSniperRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCSMG</thingDef>
+				<styleDef>O21_Halo_InnieSMG</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	<StyleCategoryDef>
+		<defName>O21_Halo_CovHereticStyle</defName>
+		<label>Swords of Sanhelios</label>
+		<iconPath>HaloRE/World/InnieBaseIcon</iconPath>
+		<thingDefStyles>
+			<!-- <li>
+				<thingDef>Apparel_SimpleHelmet</thingDef>
+				<styleDef>Hindu_SimpleHelmet</styleDef>
+			</li>
+			<li>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<styleDef>Hindu_AdvancedHelmet</styleDef>
+			</li> -->
+			<li>
+				<thingDef>O21_Halo_UNSCAssaultRifle</thingDef>
+				<styleDef>O21_Halo_InnieAssaultRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCBattleRifle</thingDef>
+				<styleDef>O21_Halo_InnieBattleRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCPistol</thingDef>
+				<styleDef>O21_Halo_InniePistol</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCRocketLauncher</thingDef>
+				<styleDef>O21_Halo_InnieRocketLauncher</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCShotgun</thingDef>
+				<styleDef>O21_Halo_InnieShotgun</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCSniperRifle</thingDef>
+				<styleDef>O21_Halo_InnieSniperRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_UNSCSMG</thingDef>
+				<styleDef>O21_Halo_InnieSMG</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+</Defs>

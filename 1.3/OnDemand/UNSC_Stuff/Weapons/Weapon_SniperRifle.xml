@@ -2,13 +2,13 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGun" Name="UNSCSniperRifle">
-		<defName>O21_Halo_UNSC_SniperRifle</defName>
+		<defName>O21_Halo_UNSCSniperRifle</defName>
 		<label>UNSC Sniper Rifle</label>
-		<description>The Sniper Rifle System 99 Anti-Matériel, more formally known as the Special Applications Rifle, Caliber 14.5 mm, SRS99, is a United Nations Space Command sniper rifle.</description>
+		<description>A standard issue sniper rifle used by the UNSC.</description>
 		<graphicData>
-			<texPath>Things/Weapon/UNSC/SRS99</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>			
+			<drawSize>1.5</drawSize>
 		</graphicData>
 		<comps>
 			<li>
@@ -77,7 +77,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef Class="O21Toolbox.Laser.LaserBeamDef"  ParentName="O21LaserBeamBase">
+	<ThingDef Class="O21Toolbox.Laser.LaserBeamDef" ParentName="O21LaserBeamBase">
 		<defName>O21_Halo_Bullet_UNSCSniperRifle</defName>
 		<label>SRS99 bullet</label>
 		<graphicData>
@@ -94,5 +94,14 @@
 			<speed>110</speed>
 		</projectile>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_InnieSniperRifle</defName>
+		<description>A standard issue sniper rifle used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>
