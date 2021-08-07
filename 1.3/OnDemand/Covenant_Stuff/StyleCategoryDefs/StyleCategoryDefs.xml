@@ -2,13 +2,45 @@
 <Defs>
 
 	<StyleCategoryDef>
-		<defName>O21_Halo_CovHereticStyle</defName>
-		<label>Covenant Heretic</label>
-		<iconPath>HaloRE/World/HereticBaseIcon</iconPath>
+		<defName>O21_Halo_CovSwordsStyle</defName>
+		<label>Covenant Swords</label>
+		<iconPath>HaloRE/World/SwordsBaseIcon</iconPath>
 		<thingDefStyles>
 			<li>
-				<thingDef>O21_Halo_UNSCAssaultRifle</thingDef>
-				<styleDef>O21_Halo_InnieAssaultRifle</styleDef>
+				<thingDef>O21_Halo_BeamRifle_Covenant</thingDef>
+				<styleDef>O21_Halo_BeamRifle_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_BruteShot_Covenant</thingDef>
+				<styleDef>O21_Halo_BruteShot_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_Carbine_Covenant</thingDef>
+				<styleDef>O21_Halo_Carbine_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_EnergySword_Covenant</thingDef>
+				<styleDef>O21_Halo_EnergySword_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_FuelRodCannon_Covenant</thingDef>
+				<styleDef>O21_Halo_FuelRodCannon_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_GravityHammer_Covenant</thingDef>
+				<styleDef>O21_Halo_GravityHammer_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_Needler_Covenant</thingDef>
+				<styleDef>O21_Halo_Needler_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_PlasmaPistol_Covenant</thingDef>
+				<styleDef>O21_Halo_PlasmaPistol_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_PlasmaRifle_Covenant</thingDef>
+				<styleDef>O21_Halo_PlasmaRifle_Swords</styleDef>
 			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>
@@ -19,8 +51,40 @@
 		<iconPath>HaloRE/World/SwordsBaseIcon</iconPath>
 		<thingDefStyles>
 			<li>
-				<thingDef>O21_Halo_UNSCAssaultRifle</thingDef>
-				<styleDef>O21_Halo_InnieAssaultRifle</styleDef>
+				<thingDef>O21_Halo_BeamRifle_Covenant</thingDef>
+				<styleDef>O21_Halo_BeamRifle_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_BruteShot_Covenant</thingDef>
+				<styleDef>O21_Halo_BruteShot_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_Carbine_Covenant</thingDef>
+				<styleDef>O21_Halo_Carbine_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_EnergySword_Covenant</thingDef>
+				<styleDef>O21_Halo_EnergySword_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_FuelRodCannon_Covenant</thingDef>
+				<styleDef>O21_Halo_FuelRodCannon_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_GravityHammer_Covenant</thingDef>
+				<styleDef>O21_Halo_GravityHammer_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_Needler_Covenant</thingDef>
+				<styleDef>O21_Halo_Needler_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_PlasmaPistol_Covenant</thingDef>
+				<styleDef>O21_Halo_PlasmaPistol_Swords</styleDef>
+			</li>
+			<li>
+				<thingDef>O21_Halo_PlasmaRifle_Covenant</thingDef>
+				<styleDef>O21_Halo_PlasmaRifle_Swords</styleDef>
 			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>

@@ -9,7 +9,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by Unggoy among the ranks of the Covenant.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Unggoy/Normal/GruntArmor</texPath>
+			<texPath>HaloRE/Apparel/Unggoy/Normal/GruntArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(232, 171, 102)</color>
@@ -47,7 +47,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantGrunt</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Unggoy/Normal/GruntArmor</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Unggoy/Normal/GruntArmor</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -76,7 +76,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The helmet commonly worn by the Unggoy in the ranks of the Covenant.</description>
 		<graphicData> 
-			<texPath>Things/Apparel/Unggoy/Normal/GruntMask</texPath>
+			<texPath>HaloRE/Apparel/Unggoy/Normal/GruntMask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -123,7 +123,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantGrunt</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Unggoy/Normal/GruntMask</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Unggoy/Normal/GruntMask</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_GravityHammer_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_GravityHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_GravityHammer_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_GravityHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMeleeWeapon" Name="CovenantGravityHammer">
-		<defName>O21_Halo_CovenantGravityHammer</defName>
+		<defName>O21_Halo_GravityHammer_Covenant</defName>
 		<label>Gravity Hammer</label>
 		<description>The Type-2 Energy Weapon/Hammer (or T2 EW/H), more commonly known as the Gravity Hammer, is a powerful, two-handed melee weapon used by the Jiralhanae in the Covenant Empire.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/GravityHammer</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_GravityHammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.85</drawSize>	
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<techLevel>Spacer</techLevel>
 		<weaponTags>
 			<li>CovenantWeapon</li>
@@ -22,7 +32,7 @@
 			<li>CovenantGravityHammer</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsMelee</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantMelee</li>

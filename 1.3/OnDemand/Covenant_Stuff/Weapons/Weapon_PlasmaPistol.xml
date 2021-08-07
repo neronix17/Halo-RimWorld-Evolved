@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_PlasmaPistol_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_PlasmaPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_PlasmaPistol_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_PlasmaPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantPlasmaPistol">
-		<defName>O21_Halo_CovenantPlasmaPistol</defName>
+		<defName>O21_Halo_PlasmaPistol_Covenant</defName>
 		<label>Plasma Pistol</label>
 		<description>The Type-25 Directed Energy Pistol, also known as the Plasma Pistol, is a Covenant infantry firearm commonly wielded by the smaller Covenant member species, such as the Unggoy, Kig-Yar, and the Yanme'e.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/PlasmaPistol</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_PlasmaPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.28</drawSize>
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -68,7 +78,7 @@
 			<li>CovenantPlasmaPistol</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -86,7 +96,7 @@
 		<defName>O21_Halo_Bullet_PlasmaPistol</defName>
 		<label>plasma pistol shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PlasmaShotSmallGreen</texPath>
+			<texPath>HaloRE/Projectile/PlasmaShotSmallGreen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -109,7 +119,7 @@
 		<defName>O21_Halo_SOSPlasmaPistol</defName>
 		<label>Type-25 Directed Energy Pistol (sos)</label>
 		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/PlasmaPistol</texPath>
+			<texPath>HaloRE/Weapon/SwordsOfSanghelios/PlasmaPistol</texPath>
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>SOSWeapon</li>

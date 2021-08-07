@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_BeamRifle_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_BeamRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_BeamRifle_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_BeamRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantBeamRifle">
-		<defName>O21_Halo_CovenantBeamRifle</defName>
+		<defName>O21_Halo_BeamRifle_Covenant</defName>
 		<label>Beam Rifle</label>
 		<description>The Type-50 Sniper Rifle System, otherwise known as the Particle Beam Rifle, is a Covenant long-range weapon and the counterpart of the UNSC Sniper Rifle. They are most commonly seen being used by Kig-Yar, although Sangheili and even Jiralhanae are also seen using Beam Rifles on occasion.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/BeamRifle</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_BeamRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.65</drawSize>
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -39,7 +49,7 @@
 			<li>CovenantBeamRifle</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -87,10 +97,10 @@
 		<defName>O21_Halo_Bullet_CovenantBeamRifle</defName>
 		<label>beam rifle shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/BeamRifleShotNew</texPath>
+			<texPath>HaloRE/Projectile/BeamRifleShotNew</texPath>
 		</graphicData>
 		<textures Inherit="False">
-			<li>Things/Projectile/BeamRifleShotNew</li>
+			<li>HaloRE/Projectile/BeamRifleShotNew</li>
 		</textures>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -107,22 +117,6 @@
 				</li>
 			</extraDamages>
 		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="CovenantBeamRifle">
-		<defName>O21_Halo_SOSBeamRifle</defName>
-		<label>Type-50 Sniper Rifle System (sos)</label>
-		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/BeamRifle</texPath>
-		</graphicData>
-		<weaponTags Inherit="False">
-			<li>SOSWeapon</li>
-			<li>SOSRanged</li>
-			<li>SOSBeamRifle</li>
-		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>SOSRanged</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

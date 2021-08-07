@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_PlasmaRifle_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_PlasmaRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_PlasmaRifle_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_PlasmaRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantPlasmaRifle">
-		<defName>O21_Halo_CovenantPlasmaRifle</defName>
+		<defName>O21_Halo_PlasmaRifle_Covenant</defName>
 		<label>Plasma Rifle</label>
 		<description>The Type-25 Directed Energy Rifle, more commonly known as the Plasma Rifle, is a Covenant infantry weapon.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/PlasmaRifle</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_PlasmaRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4</drawSize>
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -68,7 +78,7 @@
 			<li>CovenantPlasmaRifle</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -86,7 +96,7 @@
 		<defName>O21_Halo_Bullet_PlasmaRifle</defName>
 		<label>plasma rifle shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PlasmaShotSmall</texPath>
+			<texPath>HaloRE/Projectile/PlasmaShotSmall</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -109,7 +119,7 @@
 		<defName>O21_Halo_SOSPlasmaRifle</defName>
 		<label>Type-25 Directed Energy Rifle (sos)</label>
 		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/PlasmaRifle</texPath>
+			<texPath>HaloRE/Weapon/SwordsOfSanghelios/PlasmaRifle</texPath>
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>SOSWeapon</li>

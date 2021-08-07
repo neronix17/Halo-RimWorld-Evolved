@@ -8,11 +8,11 @@
 		<description>A large automated turret, fire a number of small plasma bursts at long range.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Security/Covenant/LightAutomatedTurret_Base</texPath>
+			<texPath>HaloRE/Building/Security/Covenant/LightAutomatedTurret_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4.5, 4.5)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/Security/Covenant/LightAutomatedTurret_UIIcon</uiIconPath>
+		<uiIconPath>HaloRE/Building/Security/Covenant/LightAutomatedTurret_UIIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>true</rotatable>
@@ -91,7 +91,7 @@
 		<defName>O21_Halo_Covenant_LightAutoPlasma_Bullet</defName>
 		<label>plasma burst</label>
 		<graphicData>
-			<texPath>Things/Projectile/PlasmaShotSmall</texPath>
+			<texPath>HaloRE/Projectile/PlasmaShotSmall</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -106,7 +106,7 @@
 		<label>plasma turret</label>
 		<description>A self-loading large-bore cannon designed to attach to a turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/Covenant/LightAutomatedTurret_Head_Plasma</texPath>
+			<texPath>HaloRE/Building/Security/Covenant/LightAutomatedTurret_Head_Plasma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4.5, 4.5)</drawSize>
 		</graphicData>
@@ -151,11 +151,11 @@
 		<description>A large automated turret, fires large plasma bursts at long range.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Security/Covenant/HeavyAutomatedTurret_Base</texPath>
+			<texPath>HaloRE/Building/Security/Covenant/HeavyAutomatedTurret_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(7, 7)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/Security/Covenant/HeavyAutomatedTurret_UIIcon</uiIconPath>
+		<uiIconPath>HaloRE/Building/Security/Covenant/HeavyAutomatedTurret_UIIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>true</rotatable>
@@ -234,7 +234,7 @@
 		<defName>O21_Halo_Covenant_HeavyAutoPlasma_Bullet</defName>
 		<label>plasma burst</label>
 		<graphicData>
-			<texPath>Things/Projectile/PlasmaShotLarge</texPath>
+			<texPath>HaloRE/Projectile/PlasmaShotLarge</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -249,7 +249,7 @@
 		<label>heavy plasma turret</label>
 		<description>A self-loading large-bore cannon designed to attach to a turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/Covenant/HeavyAutomatedTurret_Head_Plasma</texPath>
+			<texPath>HaloRE/Building/Security/Covenant/HeavyAutomatedTurret_Head_Plasma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(7, 7)</drawSize>
 		</graphicData>

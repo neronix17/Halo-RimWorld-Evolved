@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The fatigues commonly worn by UNSC Marines.</description>
 		<graphicData>
-			<texPath>Things/Apparel/UNSC/Marine/Fatigues</texPath>
+			<texPath>HaloRE/Apparel/UNSC/Marine/Fatigues</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -33,9 +33,6 @@
 			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Apparel</li>
-		</thingCategories>
 		<tradeTags>
 			<li>UNSCApparel</li>
 		</tradeTags>
@@ -45,7 +42,7 @@
 				<li>UNSCFatigues</li>
 				<li>UNSCMarine</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/UNSC/Marine/Fatigues</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/UNSC/Marine/Fatigues</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -67,7 +64,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by UNSC Marines.</description>
 		<graphicData>
-			<texPath>Things/Apparel/UNSC/Marine/Armor_Reach</texPath>
+			<texPath>HaloRE/Apparel/UNSC/Marine/Armor_Reach</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -96,9 +93,6 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Apparel_Armor</li>
-		</thingCategories>
 		<tradeTags>
 			<li>UNSCApparel</li>
 		</tradeTags>
@@ -107,7 +101,7 @@
 				<li>UNSCApparel</li>
 				<li>UNSCMarine</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/UNSC/Marine/Armor_Reach</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/UNSC/Marine/Armor_Reach</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -133,7 +127,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The helmet commonly worn by the UNSC Marines.</description>
 		<graphicData> 
-			<texPath>Things/Apparel/UNSC/Marine/Helmet</texPath>
+			<texPath>HaloRE/Apparel/UNSC/Marine/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -162,9 +156,6 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Apparel_Helmet</li>
-		</thingCategories>
 		<apparel>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -173,7 +164,7 @@
 				<li>UNSCApparel</li>
 				<li>UNSCMarine</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/UNSC/Marine/Helmet</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/UNSC/Marine/Helmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

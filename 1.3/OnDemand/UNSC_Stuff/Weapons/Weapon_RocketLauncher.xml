@@ -31,9 +31,6 @@
 			<li>UNSCRanged</li>
 			<li>UNSCRocketLauncher</li>
 		</weaponTags>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Weapons</li>
-		</thingCategories>
 		<tradeTags>
 			<li>UNSCRanged</li>
 		</tradeTags>
@@ -79,7 +76,7 @@
 		<defName>O21_Halo_Bullet_RocketLauncher</defName>
 		<label>rocket</label>
 		<graphicData>
-			<texPath>Things/Projectile/Rocket_Big</texPath>
+			<texPath>HaloRE/Projectile/Rocket_Big</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>

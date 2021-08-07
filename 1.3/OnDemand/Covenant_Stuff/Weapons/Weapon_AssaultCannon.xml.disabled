@@ -6,7 +6,7 @@
 		<label>Hunter Assault Cannon</label>
 		<description>The Hunter Assault Cannon is a modified variant of the Fuel Rod Cannon exclusively used by the Mgalekgolo.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/AssaultCannon</texPath>
+			<texPath>HaloRE/Weapon/Covenant/AssaultCannon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.65</drawSize>			
 		</graphicData>
@@ -69,7 +69,7 @@
 			<li>CovenantAssaultCannon</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -82,5 +82,14 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_CovenantAssaultCannon</defName>
+		<description>A standard issue assault rifle used by the UNSC and 'aquired' by the Innies.</description>
+		<graphicData>
+			<texPath>HaloRE/Weapon/UNSC/Innie_AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

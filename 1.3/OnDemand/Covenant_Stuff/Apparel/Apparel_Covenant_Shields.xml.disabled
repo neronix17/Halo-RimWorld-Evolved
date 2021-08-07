@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<equipmentType>None</equipmentType>
 		<graphicData>
-			<texPath>Things/Apparel/Mgalekgolo/HunterShield</texPath>
+			<texPath>HaloRE/Apparel/Mgalekgolo/HunterShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -33,7 +33,7 @@
 				<useColoredVersion>false</useColoredVersion>
 				<wieldedGraphic>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<texPath>Things/Apparel/Mgalekgolo/HunterShield</texPath>
+					<texPath>HaloRE/Apparel/Mgalekgolo/HunterShield</texPath>
 					<drawSize>(2.0, 2.0)</drawSize>
 				</wieldedGraphic>
 				<renderProperties>

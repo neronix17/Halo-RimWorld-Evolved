@@ -6,7 +6,7 @@
 		<label>Halo</label>
 	</ResearchTabDef>
 	
-	<ResearchProjectDef Name="O21HaloResearch">
+	<ResearchProjectDef Name="O21HaloResearch" Abstract="True">
 		<tab>O21_Halo_ResearchTab</tab>
 		<techLevel>Spacer</techLevel>
 	</ResearchProjectDef>

@@ -9,7 +9,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by Mgalekgolo among the ranks of the Covenant.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Mgalekgolo/Normal/HunterArmor</texPath>
+			<texPath>HaloRE/Apparel/Mgalekgolo/Normal/HunterArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(56, 71, 102)</color>
 		</graphicData>
@@ -46,7 +46,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantHunter</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Mgalekgolo/Normal/HunterArmor</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Mgalekgolo/Normal/HunterArmor</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -75,7 +75,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The helmet commonly worn by the Mgalekgolo in the ranks of the Covenant.</description>
 		<graphicData> 
-			<texPath>Things/Apparel/Mgalekgolo/Normal/HunterHelmet</texPath>
+			<texPath>HaloRE/Apparel/Mgalekgolo/Normal/HunterHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(56, 71, 102)</color>
 		</graphicData>
@@ -115,7 +115,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantHunter</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Mgalekgolo/Normal/HunterHelmet</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Mgalekgolo/Normal/HunterHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

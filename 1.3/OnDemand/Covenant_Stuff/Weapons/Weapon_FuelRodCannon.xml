@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_FuelRodCannon_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_FuelRodCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_FuelRodCannon_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_FuelRodCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantFuelRodCannon">
-		<defName>O21_Halo_CovenantFuelRodCannon</defName>
+		<defName>O21_Halo_FuelRodCannon_Covenant</defName>
 		<label>Fuel Rod Cannon</label>
 		<description>The Type-33 Light Anti-Armor Weapon, more commonly known as the Fuel Rod Gun or Fuel Rod Cannon, is a Covenant shoulder-fired mortar/radiation weapon.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/FuelRodCannon_Blue</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_FuelRodCannon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.65</drawSize>			
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -71,7 +81,7 @@
 			<li>CovenantFuelRodCannon</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -89,7 +99,7 @@
 		<defName>O21_Halo_Bullet_FuelRodCannon</defName>
 		<label>fuel rod shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/FuelRodShot</texPath>
+			<texPath>HaloRE/Projectile/FuelRodShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
@@ -108,7 +118,7 @@
 		<defName>O21_Halo_SOSFuelRodCannon</defName>
 		<label>Type-33 Light Anti-Armor Weapon (sos)</label>
 		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/FuelRodCannon</texPath>
+			<texPath>HaloRE/Weapon/SwordsOfSanghelios/FuelRodCannon</texPath>
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>SOSWeapon</li>

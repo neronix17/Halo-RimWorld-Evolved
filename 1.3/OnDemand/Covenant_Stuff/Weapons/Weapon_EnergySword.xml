@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_EnergySword_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_EnergySword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_EnergySword_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_EnergySword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMeleeWeapon" Name="CovenantEnergySword">
-		<defName>O21_Halo_CovenantEnergySword</defName>
+		<defName>O21_Halo_EnergySword_Covenant</defName>
 		<label>Energy Sword</label>
 		<description>The Type-1 Energy Weapon/Sword, commonly known as the Energy Sword, is a close-quarters weapon of the Covenant Empire, for exclusive use of the Sangheili.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/EnergySword</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_EnergySword</texPath>
 			<shaderType>Transparent</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.3</drawSize>	
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<techLevel>Spacer</techLevel>
 		<weaponTags>
 			<li>CovenantWeapon</li>
@@ -26,7 +36,7 @@
 			<li>SOSEnergySword</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsMelee</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantMelee</li>

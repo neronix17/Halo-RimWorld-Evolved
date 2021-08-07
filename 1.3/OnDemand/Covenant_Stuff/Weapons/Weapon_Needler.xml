@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_Needler_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_Needler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_Needler_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_Needler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantNeedler">
-		<defName>O21_Halo_CovenantNeedler</defName>
+		<defName>O21_Halo_Needler_Covenant</defName>
 		<label>Needler</label>
 		<description>The Type-33 Guided Munitions Launcher, more commonly known as the Needler, is a Covenant anti-infantry weapon. It is used by Sangheili, Unggoy, Skirmishers, Yanme'e, and Kig-Yar.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/Needler</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_Needler</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4</drawSize>
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
 			<researchPrerequisite>O21_Halo_CovenantWeapons</researchPrerequisite>
@@ -80,7 +90,7 @@
 			<li>CovenantNeedler</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -91,7 +101,7 @@
 		<defName>O21_Halo_Bullet_CovenantNeedler</defName>
 		<label>needle shard</label>
 		<graphicData>
-			<texPath>Things/Projectile/Needle</texPath>
+			<texPath>HaloRE/Projectile/Needle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -106,7 +116,7 @@
 		<defName>O21_Halo_SOSNeedler</defName>
 		<label>Type-33 Guided Munitions Launcher (sos)</label>
 		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/Needler</texPath>
+			<texPath>HaloRE/Weapon/SwordsOfSanghelios/Needler</texPath>
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>SOSWeapon</li>

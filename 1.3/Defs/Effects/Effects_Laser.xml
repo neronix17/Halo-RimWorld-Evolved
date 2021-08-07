@@ -4,7 +4,7 @@
 	<ThingDef ParentName="MoteBase">
 		<defName>O21_Halo_Mote_BloodPuff</defName>
 		<graphicData>
-			<texPath>Things/Projectile/BloodPuff</texPath>
+			<texPath>HaloRE/Projectile/BloodPuff</texPath>
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<mote>

@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_BruteShot_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_BruteShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_BruteShot_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_BruteShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
   
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantBruteShot">
-		<defName>O21_Halo_CovenantBruteShot</defName>
+		<defName>O21_Halo_BruteShot_Covenant</defName>
 		<label>Brute Shot</label>
 		<description>The Type-25 Grenade Launcher or Brute Shot is a Covenant weapon favored exclusively by the Jiralhanae.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/BruteShot</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_BruteShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.65</drawSize>			
 		</graphicData>
-		<comps>     
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -39,7 +49,7 @@
 			<li>CovenantBruteShot</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -88,7 +98,7 @@
 		<defName>O21_Halo_Bullet_CovenantBruteShot</defName>
 		<label>brute shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/BruteShot</texPath>
+			<texPath>HaloRE/Projectile/BruteShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>

@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>O21_Halo_Carbine_Swords</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/SoS_Carbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>O21_Halo_Carbine_Heretic</defName>
+		<graphicData>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_Carbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMakeableGun" Name="CovenantCarbine">
-		<defName>O21_Halo_CovenantCarbine</defName>
+		<defName>O21_Halo_Carbine_Covenant</defName>
 		<label>Covenant Carbine</label>
 		<description>The Type-51 Carbine, also known as the Covenant Carbine, is a Covenant infantry firearm carried commonly by the Jiralhanae, Kig-Yar, and Sangheili.</description>
 		<graphicData>
-			<texPath>Things/Weapon/Covenant/Carbine</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_Carbine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -39,7 +49,7 @@
 			<li>CovenantCarbine</li>
 		</weaponTags>
 		<thingCategories>
-			<li>O21_Halo_Covenant_Weapons</li>
+			<li>WeaponsRanged</li>
 		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
@@ -87,10 +97,10 @@
 		<defName>O21_Halo_Bullet_CovenantCarbine</defName>
 		<label>carbine beam</label>
 		<graphicData>
-			<texPath>Things/Projectile/CarbineShotNew</texPath>
+			<texPath>HaloRE/Projectile/CarbineShotNew</texPath>
 		</graphicData>
 		<textures Inherit="False">
-			<li>Things/Projectile/CarbineShotNew</li>
+			<li>HaloRE/Projectile/CarbineShotNew</li>
 		</textures>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -113,7 +123,7 @@
 		<defName>O21_Halo_SOSCarbine</defName>
 		<label>Type-51 Carbine (sos)</label>
 		<graphicData>
-			<texPath>Things/Weapon/SwordsOfSanghelios/Carbine</texPath>
+			<texPath>HaloRE/Weapon/SwordsOfSanghelios/Carbine</texPath>
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>SOSWeapon</li>

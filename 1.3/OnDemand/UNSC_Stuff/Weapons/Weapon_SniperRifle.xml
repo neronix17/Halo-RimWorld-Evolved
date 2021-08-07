@@ -31,9 +31,6 @@
 			<li>UNSCRanged</li>
 			<li>UNSCSniperRifle</li>
 		</weaponTags>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Weapons</li>
-		</thingCategories>
 		<tradeTags>
 			<li>UNSCRanged</li>
 		</tradeTags>
@@ -81,10 +78,10 @@
 		<defName>O21_Halo_Bullet_UNSCSniperRifle</defName>
 		<label>SRS99 bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/SniperStream</texPath>
+			<texPath>HaloRE/Projectile/SniperStream</texPath>
 		</graphicData>
 		<textures Inherit="False">
-			<li>Things/Projectile/SniperStream</li>
+			<li>HaloRE/Projectile/SniperStream</li>
 		</textures>
 		<projectile>
 			<flyOverhead>false</flyOverhead>

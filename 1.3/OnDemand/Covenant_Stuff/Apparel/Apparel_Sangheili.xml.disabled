@@ -9,7 +9,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by Sangheili among the ranks of the Covenant.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Sangheili/Minor/EliteMinor</texPath>
+			<texPath>HaloRE/Apparel/Sangheili/Minor/EliteMinor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(56, 71, 102)</color>
@@ -50,7 +50,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantEliteMinor</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Sangheili/Minor/EliteMinor</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Sangheili/Minor/EliteMinor</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -137,7 +137,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by Sangheili commanders among the ranks of the Covenant.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Sangheili/Major/EliteMajor</texPath>
+			<texPath>HaloRE/Apparel/Sangheili/Major/EliteMajor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
@@ -176,7 +176,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantEliteUltra</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Sangheili/Major/EliteMajor</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Sangheili/Major/EliteMajor</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -220,7 +220,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The helmet commonly worn by the Sangheili in the ranks of the Covenant.</description>
 		<graphicData> 
-			<texPath>Things/Apparel/Sangheili/NewMinor/Helmet</texPath>
+			<texPath>HaloRE/Apparel/Sangheili/NewMinor/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<shaderType>CutoutComplex</shaderType>
 			<color>(56, 71, 102)</color>
@@ -261,7 +261,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantEliteMinor</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Sangheili/NewMinor/Helmet</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Sangheili/NewMinor/Helmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -327,7 +327,7 @@
 		<label>sangheili elite ultra helmet</label>
 		<description>The helmet commonly worn by Sangheili commanders among the ranks of the Covenant.</description>
 		<graphicData> 
-			<texPath>Things/Apparel/Sangheili/Major/EliteMajorHelmet</texPath>
+			<texPath>HaloRE/Apparel/Sangheili/Major/EliteMajorHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
@@ -351,7 +351,7 @@
 				<li>CovenantApparel</li>
 				<li>CovenantEliteUltra</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Sangheili/Major/EliteMajorHelmet</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/Sangheili/Major/EliteMajorHelmet</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<Mass>1.8</Mass>

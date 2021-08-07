@@ -31,9 +31,6 @@
 			<li>UNSCRanged</li>
 			<li>UNSCBattleRifle</li>
 		</weaponTags>
-		<thingCategories>
-			<li>O21_Halo_UNSC_Weapons</li>
-		</thingCategories>
 		<tradeTags>
 			<li>UNSCRanged</li>
 		</tradeTags>
@@ -83,7 +80,7 @@
 		<defName>O21_Halo_Bullet_UNSCBattleRifle</defName>
 		<label>BR55 bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>HaloRE/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
