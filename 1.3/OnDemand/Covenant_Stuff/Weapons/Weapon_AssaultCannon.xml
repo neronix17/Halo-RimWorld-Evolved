@@ -75,7 +75,7 @@
 			<li>CovenantRanged</li>
 		</tradeTags>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_Covenant_HeavyWeapons</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantHeavyWeapons</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>

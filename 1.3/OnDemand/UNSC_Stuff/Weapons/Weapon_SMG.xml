@@ -42,7 +42,7 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_UNSC_Melee</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_UNSCWeapons</researchPrerequisite>
 		</recipeMaker>
 		<verbs>
 			<li>

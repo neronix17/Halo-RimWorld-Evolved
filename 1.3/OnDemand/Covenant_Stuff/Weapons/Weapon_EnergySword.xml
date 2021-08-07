@@ -37,7 +37,7 @@
 			<Mass>1.1</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_Covenant_Melee</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantWeapons</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>

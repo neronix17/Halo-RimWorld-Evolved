@@ -16,7 +16,7 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_Covenant_GruntArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -85,7 +85,7 @@
                 <li>O21_Halo_Covenant_ArmouryBench</li>
             </recipeUsers>-->
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_Covenant_GruntArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>

@@ -26,7 +26,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_Covenant_LongRangeWeapons</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantWeapons</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>

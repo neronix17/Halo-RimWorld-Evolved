@@ -42,7 +42,7 @@
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_UNSC_HeavyWeapons</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_UNSCHeavyWeapons</researchPrerequisite>
 		</recipeMaker>
 		<verbs>
 			<li>

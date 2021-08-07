@@ -1,168 +1,138 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<ResearchTabDef>
-		<defName>ResearchTab_UNSC</defName>
-		<label>UNSC</label>
-	</ResearchTabDef>
 	
-	<!-- ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_AutomatedTurrets</defName>
-		<label>Automated Turrets (UNSC)</label>
-		<description>Unlocks UNSC Automated Turrets.</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Spacer</techLevel>
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCArmory</defName>
+		<label>UNSC Armory</label>
+		<description>Unlocks access to the basics of the UNSC and provides a route into further research of their equipment.</description>
+		<baseCost>2000</baseCost>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef -->
+	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_Armory</defName>
-		<label>UNSC Armory</label>
-		<description>Unlocks access to weapons and armour research and allows the building of the UNSC Armory to craft them at. [Armory not implemented yet, crafting is still done at the vanilla benches]</description>
-		<baseCost>800</baseCost>
-		<techLevel>Spacer</techLevel>
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCConstruction</defName>
+		<label>UNSC Construction</label>
+		<description>Unlocks blueprints for building various UNSC structures and furniture.</description>
+		<baseCost>2500</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCArmory</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCTurrets</defName>
+		<label>UNSC Turrets</label>
+		<description>Unlocks blueprints for building UNSC turrets.</description>
+		<baseCost>3000</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCConstruction</li>
+			<li>O21_Halo_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCShielding</defName>
+		<label>UNSC Shielding</label>
+		<description>Unlocks blueprints for building UNSC shield generators.</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCTurrets</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCWeapons</defName>
+		<label>UNSC Weapons</label>
+		<description>Unlocks the basic set of UNSC weapons.</description>
+		<baseCost>3000</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCArmory</li>
+		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_MarineArmor</defName>
-		<label>UNSC Marine Armor</label>
-		<description>Unlocks UNSC Marine armor.</description>
-		<baseCost>1100</baseCost>
-		<techLevel>Spacer</techLevel>
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCHeavyWeapons</defName>
+		<label>UNSC Heavy Weapons</label>
+		<description>Unlocks the heavier UNSC weapons.</description>
+		<baseCost>3000</baseCost>
 		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
+			<li>O21_Halo_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCArmor</defName>
+		<label>UNSC Armor</label>
+		<description>Unlocks basic UNSC armors.</description>
+		<baseCost>1500</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCArmory</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
-	<!-- ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_Pelican</defName>
-		<label>UNSC Dropship</label>
-		<description>Unlocks D77-TC Pelican dropship.</description>
-		<baseCost>2100</baseCost>
-		<techLevel>Spacer</techLevel>
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCAdvancedArmor</defName>
+		<label>UNSC Advanced Armor</label>
+		<description>Unlocks advanced UNSC armors.</description>
+		<baseCost>1500</baseCost>
 		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
+			<li>O21_Halo_UNSCArmor</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCExplosives</defName>
+		<label>UNSC Explosives</label>
+		<description>Unlocks grenades and grenade belts used by the UNSC.</description>
+		<baseCost>1000</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCWeapons</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCSpartanFormula</defName>
+		<label>Spartan Formula</label>
+		<description>Unlocks an injectable formula which will turn any pawn into a powerful super soldier.</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+			<li>O21_Halo_UNSCArmory</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef -->
-	
-	<!-- ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_ODST</defName>
-		<label>ODST Armor</label>
-		<description>Unlocks ODST armor.</description>
-		<baseCost>800</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_MarineArmor</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef -->
-	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_Rifles</defName>
-		<label>Rifles</label>
-		<description>Unlocks the UNSC weapons:
-- Assault Rifle
-- Battle Rifle</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_LongRangeWeapons</defName>
-		<label>Long Range Weapons</label>
-		<description>Unlocks the UNSC weapons:
-- Sniper Rifle</description>
-		<baseCost>600</baseCost>
-		<techLevel>Spacer</techLevel>
+	<ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCArmor</defName>
+		<label>UNSC Spartan Armor</label>
+		<description>Unlocks armor usable by pawns after taking the spartan formula.</description>
+		<baseCost>2600</baseCost>
 		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
+			<li>O21_Halo_UNSCArmor</li>
+			<li>O21_Halo_UNSCSpartanFormula</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_SmallWeapons</defName>
-		<label>Small Arms</label>
-		<description>Unlocks the UNSC weapons:
-- Pistol</description>
-		<baseCost>600</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_HeavyWeapons</defName>
-		<label>Heavy Weapons</label>
-		<description>Unlocks the UNSC weapons:
-- Rocket Launcher
-- [Classified]</description>
-		<baseCost>2400</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_Melee</defName>
-		<label>Short Range Weapons</label>
-		<description>Unlocks the UNSC weapons:
-- Shotgun
-- SMG</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-	
-	<!-- ResearchProjectDef>
-		<tab>ResearchTab_UNSC</tab>
-		<defName>O21_Halo_UNSC_Explosives</defName>
-		<label>Explosives</label>
-		<description>Unlocks the UNSC weapons:
-- Frag Grenades
-
-[Not Yet Implemented]</description>
-		<baseCost>300</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>O21_Halo_UNSC_Armory</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef -->
 
 </Defs>
