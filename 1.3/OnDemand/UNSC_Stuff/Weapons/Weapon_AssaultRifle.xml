@@ -8,13 +8,8 @@
 		<graphicData>
 			<texPath>HaloRE/Weapon/UNSC/UNSC_AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.00</drawSize>			
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>

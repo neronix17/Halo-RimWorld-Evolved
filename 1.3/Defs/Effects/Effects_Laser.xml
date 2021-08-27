@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="MoteBase">
+	<FleckDef ParentName="FleckBase">
 		<defName>O21_Halo_BloodPuff</defName>
 		<graphicData>
 			<texPath>HaloRE/Projectile/BloodPuff</texPath>
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<mote>
-			<fadeInTime>0.04</fadeInTime>
-			<solidTime>0.25</solidTime>
-			<fadeOutTime>0.1</fadeOutTime>
-		</mote>
-	</ThingDef>
+		<fadeInTime>0.04</fadeInTime>
+		<solidTime>0.25</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+	</FleckDef>
 
 
 	<EffecterDef Name="O21_Halo_LaserImpact">
@@ -102,10 +100,13 @@
 				<spawnLocType>OnSource</spawnLocType>
 			</li>
 		</children>
-		<offsetTowardsTarget><min>0.0</min><max>0.0</max></offsetTowardsTarget>
+		<offsetTowardsTarget>
+			<min>0.0</min>
+			<max>0.0</max>
+		</offsetTowardsTarget>
 		<positionRadius>0.01</positionRadius>
 	</EffecterDef>
-	
+
 	<EffecterDef Name="O21_Halo_LaserLivingImpact">
 		<defName>O21_Halo_LaserLivingImpact</defName>
 		<children>
@@ -150,7 +151,10 @@
 				<spawnLocType>OnSource</spawnLocType>
 			</li>
 		</children>
-		<offsetTowardsTarget><min>0.0</min><max>0.0</max></offsetTowardsTarget>
+		<offsetTowardsTarget>
+			<min>0.0</min>
+			<max>0.0</max>
+		</offsetTowardsTarget>
 		<positionRadius>0.3</positionRadius>
 	</EffecterDef>
 

@@ -6,14 +6,6 @@
 		<label>Insurrectionist</label>
 		<iconPath>HaloRE/World/InnieBaseIcon</iconPath>
 		<thingDefStyles>
-			<!-- <li>
-				<thingDef>Apparel_SimpleHelmet</thingDef>
-				<styleDef>Hindu_SimpleHelmet</styleDef>
-			</li>
-			<li>
-				<thingDef>Apparel_AdvancedHelmet</thingDef>
-				<styleDef>Hindu_AdvancedHelmet</styleDef>
-			</li> -->
 			<li>
 				<thingDef>O21_Halo_UNSCAssaultRifle</thingDef>
 				<styleDef>O21_Halo_InnieAssaultRifle</styleDef>

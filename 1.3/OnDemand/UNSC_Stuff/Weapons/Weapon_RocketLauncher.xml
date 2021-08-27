@@ -8,13 +8,9 @@
 		<graphicData>
 			<texPath>HaloRE/Weapon/UNSC/UNSC_RocketLauncher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>			
+			<drawSize>1.25</drawSize>			
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<statBases>
 			<MarketValue>1000</MarketValue>
 			<WorkToMake>14000</WorkToMake>

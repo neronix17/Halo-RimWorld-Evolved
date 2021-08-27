@@ -8,13 +8,8 @@
 		<graphicData>
 			<texPath>HaloRE/Weapon/UNSC/UNSC_Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.85</drawSize>			
+			<drawSize>1.0</drawSize>			
 		</graphicData>
-		<comps>
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
