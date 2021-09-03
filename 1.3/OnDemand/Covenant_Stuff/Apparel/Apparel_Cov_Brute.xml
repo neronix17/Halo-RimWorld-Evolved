@@ -2,18 +2,18 @@
 <Defs>
 	
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>O21_Halo_UNSC_fatigues</defName>
-		<label>unsc fatigues</label>
+		<defName>O21_Halo_Cov_BruteUndersuit</defName>
+		<label>brute undersuit</label>
 		<techLevel>Spacer</techLevel>
-		<description>Fatigues commonly worn by UNSC Marines.</description>
+		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/MarineFatigues/Apparel</texPath>
+			<texPath>HaloRE/Apparel/BruteUndersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_UNSCArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -22,7 +22,7 @@
             </recipeUsers>-->
 		</recipeMaker>
 		<costList>
-			<Cloth>40</Cloth>
+			<Cloth>60</Cloth>
 		</costList>
 		<statBases>
 			<Mass>4</Mass>
@@ -34,15 +34,14 @@
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<tradeTags>
-			<li>UNSCApparel</li>
+			<li>CovApparel</li>
 		</tradeTags>
 		<apparel>
 			<tags>
-				<li>UNSCApparel</li>
-				<li>UNSCFatigues</li>
-				<li>UNSCMarine</li>
+				<li>CovApparel</li>
+				<li>CovBrute</li>
 			</tags>
-			<wornGraphicPath>HaloRE/Apparel/MarineFatigues/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteUndersuit/Apparel</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -59,19 +58,19 @@
 		</apparel>
 	</ThingDef>
 	
-	<ThingDef ParentName="ArmorMachineableBase" Name="UNSCMarineArmor">
-		<defName>O21_Halo_UNSC_MarineArmor</defName>
-		<label>unsc marine armor</label>
+	<ThingDef ParentName="ArmorMachineableBase" Name="CovBruteArmor">
+		<defName>O21_Halo_Cov_BruteArmor</defName>
+		<label>brute armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>Ballistic armor commonly worn by UNSC Marines.</description>
+		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/MarineArmor/Apparel</texPath>
+			<texPath>HaloRE/Apparel/BruteArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(84, 93, 83)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_UNSCArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -93,10 +92,10 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<tradeTags>
-			<li>UNSCApparel</li>
+			<li>CovApparel</li>
 		</tradeTags>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/MarineArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteArmor/Apparel</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -108,8 +107,8 @@
 				<li>Neck</li>
 			</bodyPartGroups>
 			<tags>
-				<li>UNSCApparel</li>
-				<li>UNSCMarine</li>
+				<li>CovApparel</li>
+				<li>CovBrute</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -120,19 +119,19 @@
 		</colorGenerator>
 	</ThingDef>
 	
-	<ThingDef ParentName="ArmorMachineableBase" Name="UNSCMarinePauldrons">
-		<defName>O21_Halo_UNSC_MarinePauldrons</defName>
-		<label>unsc marine pauldrons</label>
+	<ThingDef ParentName="ArmorMachineableBase" Name="CovBrutePauldrons">
+		<defName>O21_Halo_Cov_BrutePauldronsMinor</defName>
+		<label>brute minor pauldrons</label>
 		<techLevel>Spacer</techLevel>
-		<description>Armored pauldrons commonly worn by UNSC Marines.</description>
+		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/MarinePauldrons/Apparel</texPath>
+			<texPath>HaloRE/Apparel/BrutePauldronsMinor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(84, 93, 83)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_UNSCArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -154,10 +153,10 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tradeTags>
-			<li>UNSCApparel</li>
+			<li>CovApparel</li>
 		</tradeTags>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/MarinePauldrons/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BrutePauldronsMinor/Apparel</wornGraphicPath>
 			<layers>
 				<li>ShellExtra</li>
 			</layers>
@@ -167,8 +166,8 @@
 				<li>Hands</li>
 			</bodyPartGroups>
 			<tags>
-				<li>UNSCApparel</li>
-				<li>UNSCMarine</li>
+				<li>CovApparel</li>
+				<li>CovBrute</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -179,19 +178,19 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="UNSCMarineHelmet">
-		<defName>O21_Halo_UNSC_MarineHelmet</defName>
-		<label>unsc marine helmet</label>
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteHelmet">
+		<defName>O21_Halo_Cov_BruteSkullcap</defName>
+		<label>brute skullcap</label>
 		<techLevel>Spacer</techLevel>
-		<description>The helmet commonly worn by the UNSC Marines.</description>
+		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/MarineHelmet/Head</texPath>
+			<texPath>HaloRE/Apparel/BruteSkullcap/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<color>(84, 93, 83)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_UNSCArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -212,7 +211,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/MarineHelmet/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteSkullcap/Head</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -221,8 +220,8 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<tags>
-				<li>UNSCApparel</li>
-				<li>UNSCMarine</li>
+				<li>CovApparel</li>
+				<li>CovBrute</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
