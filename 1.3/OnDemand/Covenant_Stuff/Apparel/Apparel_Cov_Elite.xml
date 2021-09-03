@@ -2,12 +2,12 @@
 <Defs>
 	
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>O21_Halo_Cov_BruteUndersuit</defName>
-		<label>brute undersuit</label>
+		<defName>O21_Halo_Cov_EliteUndersuit</defName>
+		<label>elite undersuit</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteUndersuit/Apparel</texPath>
+			<texPath>HaloRE/Apparel/EliteUndersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -39,9 +39,9 @@
 		<apparel>
 			<tags>
 				<li>CovApparel</li>
-				<li>CovBrute</li>
+				<li>CovElite</li>
 			</tags>
-			<wornGraphicPath>HaloRE/Apparel/BruteUndersuit/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/EliteUndersuit/Apparel</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -58,13 +58,13 @@
 		</apparel>
 	</ThingDef>
 	
-	<ThingDef ParentName="ArmorMachineableBase" Name="CovBruteArmor">
-		<defName>O21_Halo_Cov_BruteArmor</defName>
-		<label>brute armor</label>
+	<ThingDef ParentName="ArmorMachineableBase" Name="CovEliteArmor">
+		<defName>O21_Halo_Cov_EliteArmor</defName>
+		<label>elite armor</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteArmor/Apparel</texPath>
+			<texPath>HaloRE/Apparel/EliteArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(83, 73, 133)</color>
 		</graphicData>
@@ -95,7 +95,7 @@
 			<li>CovApparel</li>
 		</tradeTags>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/EliteArmor/Apparel</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -108,7 +108,7 @@
 			</bodyPartGroups>
 			<tags>
 				<li>CovApparel</li>
-				<li>CovBrute</li>
+				<li>CovElite</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -119,13 +119,13 @@
 		</colorGenerator>
 	</ThingDef>
 	
-	<ThingDef ParentName="ArmorMachineableBase" Name="CovBrutePauldrons">
-		<defName>O21_Halo_Cov_BrutePauldronsMinor</defName>
-		<label>brute minor pauldrons</label>
+	<ThingDef ParentName="ArmorMachineableBase" Name="CovElitePauldrons">
+		<defName>O21_Halo_Cov_ElitePauldrons</defName>
+		<label>elite pauldrons</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BrutePauldronsMinor/Apparel</texPath>
+			<texPath>HaloRE/Apparel/ElitePauldrons/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(83, 73, 133)</color>
 		</graphicData>
@@ -156,7 +156,7 @@
 			<li>CovApparel</li>
 		</tradeTags>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BrutePauldronsMinor/Apparel</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/ElitePauldrons/Apparel</wornGraphicPath>
 			<layers>
 				<li>ShellExtra</li>
 			</layers>
@@ -167,7 +167,7 @@
 			</bodyPartGroups>
 			<tags>
 				<li>CovApparel</li>
-				<li>CovBrute</li>
+				<li>CovElite</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -177,32 +177,14 @@
 			<color>(83, 73, 133)</color>
 		</colorGenerator>
 	</ThingDef>
-	
-	<ThingDef ParentName="CovBrutePauldrons">
-		<defName>O21_Halo_Cov_BrutePauldronsMajor</defName>
-		<label>brute major pauldrons</label>
-		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
-		<graphicData>
-			<texPath>HaloRE/Apparel/BrutePauldronsMajor/Apparel</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(83, 73, 133)</color>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BrutePauldronsMajor/Apparel</wornGraphicPath>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
-		</colorGenerator>
-	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteSkullcap">
-		<defName>O21_Halo_Cov_BruteSkullcap</defName>
-		<label>brute skullcap</label>
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovEliteHelmet">
+		<defName>O21_Halo_Cov_EliteHelmet</defName>
+		<label>elite helmet</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteSkullcap/Head</texPath>
+			<texPath>HaloRE/Apparel/EliteHelmet/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<color>(83, 73, 133)</color>
 		</graphicData>
@@ -229,7 +211,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteSkullcap/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/EliteHelmet/Head</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -239,7 +221,7 @@
 			</bodyPartGroups>
 			<tags>
 				<li>CovApparel</li>
-				<li>CovBrute</li>
+				<li>CovElite</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -250,76 +232,22 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteHelmet">
-		<defName>O21_Halo_Cov_BruteHelmetMinor</defName>
-		<label>brute minor helmet</label>
+	<!-- <ThingDef ParentName="CovEliteHelmet">
+		<defName>O21_Halo_Cov_EliteHelmetMajor</defName>
+		<label>elite major helmet</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteHelmetMinor/Head</texPath>
+			<texPath>HaloRE/Apparel/EliteHelmetMajor/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
-			<color>(83, 73, 133)</color>
-		</graphicData>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
-		</recipeMaker>
-		<costList>
-			<Steel>25</Steel>
-		</costList>
-		<statBases>
-			<Mass>1.4</Mass>
-			<WorkToMake>4500</WorkToMake>
-			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMinor/Head</wornGraphicPath>
-			<useWornGraphicMask>True</useWornGraphicMask>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<tags>
-				<li>CovApparel</li>
-				<li>CovBrute</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
-		</colorGenerator>
-	</ThingDef>
-
-	<ThingDef ParentName="CovBruteHelmet">
-		<defName>O21_Halo_Cov_BruteHelmetMajor</defName>
-		<label>brute major helmet</label>
-		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
-		<graphicData>
-			<texPath>HaloRE/Apparel/BruteHelmetMajor/Head</texPath>
-			<graphicClass>Graphic_Single</graphicClass> 
-			<color>(83, 73, 133)</color>
+			<color>(84, 93, 83)</color>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMajor/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/EliteHelmetMajor/Head</wornGraphicPath>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
+			<color>(84, 93, 83)</color>
 		</colorGenerator>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>
