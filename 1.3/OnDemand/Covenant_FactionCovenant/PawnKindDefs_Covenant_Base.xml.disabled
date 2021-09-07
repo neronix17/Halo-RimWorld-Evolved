@@ -66,7 +66,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="CovenantAbstractBase" Name="UnggoyAbstractBase" Abstract="True">
-		<race>Alien_Unggoy</race>
+		<race>O21_Halo_Grunt</race>
 		<combatPower>40</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
@@ -78,7 +78,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="CovenantAbstractBase" Name="SangheiliAbstractBase" Abstract="True">
-		<race>Alien_Sangheili</race>
+		<race>O21_Halo_Elite</race>
 		<combatPower>200</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
@@ -90,7 +90,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="CovenantAbstractBase" Name="JiralhanaeAbstractBase" Abstract="True">
-		<race>Alien_Jiralhanae</race>
+		<race>O21_Halo_Brute</race>
 		<combatPower>200</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>

@@ -2,21 +2,21 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Sangheili_Settings</defName>
+		<defName>Elite_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Sangheili</li>
+								<li>Elite</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
 						<li>CovenantPlayerColony</li> 
-						<li>SangheiliPlayerColony</li> 
+						<li>ElitePlayerColony</li> 
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -25,24 +25,24 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Sangheili</li>
+								<li>Elite</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
 						<li>CovenantPlayerColony</li>
-						<li>SangheiliPlayerColony</li> 
+						<li>ElitePlayerColony</li> 
 					</factionDefs>
 				</li>
             </alienwandererkinds>
         </pawnKindSettings>
 	</AlienRace.RaceSettings>
 
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Alien_Sangheili">
-		<defName>Alien_Sangheili</defName>
-		<label>Sangheili</label>
-		<description>The Sangheili (Macto cognatus in Latin taxonomy, meaning "I glorify my kin") are a saurian sapient species known for their warrior culture and combat skill. Named after their home planet, Sanghelios, they have historically been known to humans as Elites for their former role in the Covenant's military hierarchy. Originally one of the Covenant's two founding species, the Sangheili formed the hegemony's military backbone until just before the end of its existence. They had a very strong rivalry with the Jiralhanae, which finally led to open conflict during the Great Schism at the conclusion of the Human-Covenant War.</description>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Elite">
+		<defName>O21_Halo_Elite</defName>
+		<label>Elite</label>
+		<description>TODO</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>
@@ -61,6 +61,7 @@
 					</aliencrowntypes>
 					<alienbodytypes>
 						<li>Male</li>
+						<li>Hulk</li>
 					</alienbodytypes>
                     <colorChannels>
                         <li>
@@ -97,7 +98,7 @@
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>Pawn/Sangheili/NewHead/</head>
+					<head>HaloRE/Pawn/Elite/Head/</head>
 				</li>
 				<li>
 					<lifeStageDefs>
@@ -215,7 +216,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Sangheili</leatherDef>
+			<leatherDef>Leather_Elite</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Elite</nameGenerator>
 			<body>Human</body>
 			<meatColor>(237, 204, 204)</meatColor>
@@ -233,27 +234,27 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabySangheiliStage</def>
+					<def>BabyEliteStage</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildSangheiliStage</def>
+					<def>ChildEliteStage</def>
 					<minAge>3</minAge>
 				</li>
 				<li>
-					<def>TeenSangheiliStage</def>
+					<def>TeenEliteStage</def>
 					<minAge>11</minAge>
 				</li>
 				<li>
-					<def>AdultSangheiliStage</def>
+					<def>AdultEliteStage</def>
 					<minAge>18</minAge>
 				</li>
 				<li>
-					<def>ElderSangheiliStage</def>
+					<def>ElderEliteStage</def>
 					<minAge>80</minAge>
 				</li>
 				<li>
-					<def>AncestorSangheiliStage</def>
+					<def>AncestorEliteStage</def>
 					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>

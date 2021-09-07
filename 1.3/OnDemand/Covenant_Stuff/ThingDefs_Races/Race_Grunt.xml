@@ -2,14 +2,14 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Unggoy_Settings</defName>
+		<defName>Grunt_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Unggoy</li>
+								<li>Grunt</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -24,7 +24,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Unggoy</li>
+								<li>Grunt</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -37,10 +37,10 @@
         </pawnKindSettings>
 	</AlienRace.RaceSettings>
 
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Alien_Unggoy">
-		<defName>Alien_Unggoy</defName>
-		<label>Unggoy</label>
-		<description>The Unggoy (Latin, Monachus frigus, meaning "cold monk") are a sapient species of squat bipedal xeno-arthropodal vertebroid lifeforms in the unified races of the Covenant. They were the fourth species to be assimilated into the Covenant.They are the lowest-ranking species in the hierarchy, and are frequently mistreated by almost every higher-ranking race. Unggoy are primarily used as laborers, slaves, or in combat situations, as cannon fodder. They are one of the later races to be introduced into the Covenant, and were either the second or third Covenant species to be encountered by humans. They are referred to as Grunts by humans, as they are considered weak in comparison to their superiors, because they perform the majority of the physical labor required by the Covenant and they lack the knowledge of combat compared to other Covenant species.</description>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Grunt">
+		<defName>O21_Halo_Grunt</defName>
+		<label>Grunt</label>
+		<description>TODO</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>
@@ -55,7 +55,7 @@
 				<alienPartGenerator>
 					<useGenderedHeads>false</useGenderedHeads>
 					<aliencrowntypes>
-						<li>Unggoy</li>
+						<li>Normal</li>
 					</aliencrowntypes>
 					<alienbodytypes>
 						<li>Male</li>
@@ -79,8 +79,8 @@
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>Pawn/Unggoy/Head/</head>
-					<body>Pawn/Unggoy/Body/</body>
+					<head>HaloRE/Pawn/Grunt/Head/</head>
+					<body>HaloRE/Pawn/Grunt/Body/</body>
 				</li>
 				<li>
 					<lifeStageDefs>
@@ -104,16 +104,7 @@
 			<thoughtSettings>
 				<cannotReceiveThoughts />
 			</thoughtSettings>
-			<raceRestriction>
-				<apparelList>
-					<li>O21_Halo_Covenant_GruntArmor</li>
-					<li>O21_Halo_Covenant_GruntMask</li>
-				</apparelList>
-				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
-				<whiteApparelList>
-					<li>Apparel_ShieldBelt</li>
-				</whiteApparelList>
-			</raceRestriction>
+			<raceRestriction />
 		</alienRace>
 		<statBases>
 			<MarketValue>2000</MarketValue>
@@ -181,11 +172,11 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Unggoy</leatherDef>
+			<leatherDef>Leather_Grunt</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Grunt</nameGenerator>
 			<body>Human</body>
 			<meatColor>(237, 204, 204)</meatColor>
-			<baseBodySize>0.8</baseBodySize>
+			<baseBodySize>0.75</baseBodySize>
 			<baseHealthScale>0.75</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>45</gestationPeriodDays>
@@ -199,27 +190,27 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabyUnggoyStage</def>
+					<def>BabyGruntStage</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildUnggoyStage</def>
+					<def>ChildGruntStage</def>
 					<minAge>3</minAge>
 				</li>
 				<li>
-					<def>TeenUnggoyStage</def>
+					<def>TeenGruntStage</def>
 					<minAge>11</minAge>
 				</li>
 				<li>
-					<def>AdultUnggoyStage</def>
+					<def>AdultGruntStage</def>
 					<minAge>18</minAge>
 				</li>
 				<li>
-					<def>ElderUnggoyStage</def>
+					<def>ElderGruntStage</def>
 					<minAge>80</minAge>
 				</li>
 				<li>
-					<def>AncestorUnggoyStage</def>
+					<def>AncestorGruntStage</def>
 					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>

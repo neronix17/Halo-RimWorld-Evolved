@@ -2,14 +2,14 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Unggoy_Settings</defName>
+		<defName>Jackal_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Unggoy</li>
+								<li>Jackal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -24,7 +24,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Unggoy</li>
+								<li>Jackal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -37,10 +37,10 @@
         </pawnKindSettings>
 	</AlienRace.RaceSettings>
 
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Alien_Unggoy">
-		<defName>Alien_Unggoy</defName>
-		<label>Unggoy</label>
-		<description>The Unggoy (Latin, Monachus frigus, meaning "cold monk") are a sapient species of squat bipedal xeno-arthropodal vertebroid lifeforms in the unified races of the Covenant. They were the fourth species to be assimilated into the Covenant.They are the lowest-ranking species in the hierarchy, and are frequently mistreated by almost every higher-ranking race. Unggoy are primarily used as laborers, slaves, or in combat situations, as cannon fodder. They are one of the later races to be introduced into the Covenant, and were either the second or third Covenant species to be encountered by humans. They are referred to as Grunts by humans, as they are considered weak in comparison to their superiors, because they perform the majority of the physical labor required by the Covenant and they lack the knowledge of combat compared to other Covenant species.</description>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Jackal">
+		<defName>O21_Halo_Jackal</defName>
+		<label>Jackal</label>
+		<description>TODO</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>
@@ -55,7 +55,7 @@
 				<alienPartGenerator>
 					<useGenderedHeads>false</useGenderedHeads>
 					<aliencrowntypes>
-						<li>Unggoy</li>
+						<li>Normal</li>
 					</aliencrowntypes>
 					<alienbodytypes>
 						<li>Male</li>
@@ -73,14 +73,12 @@
                             </first>
                         </li>
                     </colorChannels>
-					<customDrawSize>(0.9, 0.9)</customDrawSize>
-					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>Pawn/Unggoy/Head/</head>
-					<body>Pawn/Unggoy/Body/</body>
+					<head>HaloRE/Pawn/Jackal/Head/</head>
+					<body>HaloRE/Pawn/Jackal/Body/</body>
 				</li>
 				<li>
 					<lifeStageDefs>
@@ -104,29 +102,15 @@
 			<thoughtSettings>
 				<cannotReceiveThoughts />
 			</thoughtSettings>
-			<raceRestriction>
-				<apparelList>
-					<li>O21_Halo_Covenant_GruntArmor</li>
-					<li>O21_Halo_Covenant_GruntMask</li>
-				</apparelList>
-				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
-				<whiteApparelList>
-					<li>Apparel_ShieldBelt</li>
-				</whiteApparelList>
-			</raceRestriction>
+			<raceRestriction />
 		</alienRace>
 		<statBases>
 			<MarketValue>2000</MarketValue>
-			<MoveSpeed>1.5</MoveSpeed>
+			<MoveSpeed>4.4</MoveSpeed>
 			<Flammability>0.8</Flammability>
-			<ComfyTemperatureMin>8</ComfyTemperatureMin>
-			<ComfyTemperatureMax>28</ComfyTemperatureMax>
+			<ComfyTemperatureMin>4</ComfyTemperatureMin>
+			<ComfyTemperatureMax>32</ComfyTemperatureMax>
 			<LeatherAmount>18</LeatherAmount>
-			<PsychicSensitivity>0.8</PsychicSensitivity>
-			<HungerRateMultiplier>1.0</HungerRateMultiplier>
-			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
-			<GlobalLearningFactor>0.2</GlobalLearningFactor>
-			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 		</statBases>
 		<tools>
 			<li>
@@ -181,12 +165,12 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Unggoy</leatherDef>
-			<nameGenerator>O21_Halo_NamerPerson_Grunt</nameGenerator>
+			<leatherDef>Leather_Jackal</leatherDef>
+			<nameGenerator>O21_Halo_NamerPerson_Jackal</nameGenerator>
 			<body>Human</body>
 			<meatColor>(237, 204, 204)</meatColor>
-			<baseBodySize>0.8</baseBodySize>
-			<baseHealthScale>0.75</baseHealthScale>
+			<baseBodySize>0.85</baseBodySize>
+			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<litterSizeCurve>
@@ -199,27 +183,27 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabyUnggoyStage</def>
+					<def>BabyJackalStage</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildUnggoyStage</def>
+					<def>ChildJackalStage</def>
 					<minAge>3</minAge>
 				</li>
 				<li>
-					<def>TeenUnggoyStage</def>
+					<def>TeenJackalStage</def>
 					<minAge>11</minAge>
 				</li>
 				<li>
-					<def>AdultUnggoyStage</def>
+					<def>AdultJackalStage</def>
 					<minAge>18</minAge>
 				</li>
 				<li>
-					<def>ElderUnggoyStage</def>
+					<def>ElderJackalStage</def>
 					<minAge>80</minAge>
 				</li>
 				<li>
-					<def>AncestorUnggoyStage</def>
+					<def>AncestorJackalStage</def>
 					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>

@@ -2,14 +2,14 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Jiralhanae_Settings</defName>
+		<defName>Brute_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Jiralhanae</li>
+								<li>Brute</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -24,7 +24,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Jiralhanae</li>
+								<li>Brute</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -37,10 +37,10 @@
         </pawnKindSettings>
 	</AlienRace.RaceSettings>
 
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Alien_Jiralhanae">
-		<defName>Alien_Jiralhanae</defName>
-		<label>Jiralhanae</label>
-		<description>The Jiralhanae (Latin, Servus ferox, translated to "Wild Slave"), known by humans as Brutes, are the most recent members of the Covenant. They are a large, bipedal, giant ape-like species from Doisac. The Jiralhanae have been part of the Covenant since before the destruction of the UNSC agricultural colony on Harvest, and were always resented by the Sangheili for their monomaniacal behavior.</description>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Brute">
+		<defName>O21_Halo_Brute</defName>
+		<label>Brute</label>
+		<description>TODO</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>
@@ -79,7 +79,7 @@
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>Pawn/Jiralhanae/NewHead/</head>
+					<head>HaloRE/Pawn/Brute/Head/</head>
 				</li>
 				<li>
 					<lifeStageDefs>
@@ -107,10 +107,7 @@
 			<thoughtSettings>
 				<cannotReceiveThoughts />
 			</thoughtSettings>
-			<raceRestriction>
-				<apparelList />
-				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
-			</raceRestriction>
+			<raceRestriction />
 		</alienRace>
 		<statBases>
 			<MarketValue>2200</MarketValue>
@@ -185,7 +182,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Jiralhanae</leatherDef>
+			<leatherDef>Leather_Brute</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Brute</nameGenerator>
 			<body>Human</body>
 			<meatColor>(237, 204, 204)</meatColor>
@@ -203,27 +200,27 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabyJiralhanaeStage</def>
+					<def>BabyBruteStage</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildJiralhanaeStage</def>
+					<def>ChildBruteStage</def>
 					<minAge>3</minAge>
 				</li>
 				<li>
-					<def>TeenJiralhanaeStage</def>
+					<def>TeenBruteStage</def>
 					<minAge>11</minAge>
 				</li>
 				<li>
-					<def>AdultJiralhanaeStage</def>
+					<def>AdultBruteStage</def>
 					<minAge>18</minAge>
 				</li>
 				<li>
-					<def>ElderJiralhanaeStage</def>
+					<def>ElderBruteStage</def>
 					<minAge>80</minAge>
 				</li>
 				<li>
-					<def>AncestorJiralhanaeStage</def>
+					<def>AncestorBruteStage</def>
 					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>
