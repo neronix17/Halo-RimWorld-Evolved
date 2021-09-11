@@ -98,12 +98,7 @@
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>HaloRE/Pawn/Elite/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>HumanlikeAdult</li>
-					</lifeStageDefs>
+					<head>HaloRE/Pawn/Elite/Heads/</head>
 				</li>
 			</graphicPaths>
 			<styleSettings>
@@ -211,7 +206,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>O21_Halo_AlienLeather_Scaled</leatherDef>
+			<leatherDef>O21_AlienLeather_Scaled</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Elite</nameGenerator>
 			<body>Human</body>
 			<useMeatFrom>Human</useMeatFrom>

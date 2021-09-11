@@ -37,6 +37,13 @@
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>O21_Halo_CovenantHeavyWeapons</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>

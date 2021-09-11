@@ -1,52 +1,59 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseMakeableGun" Name="UNSCSMG">
-		<defName>O21_Halo_UNSCSMG</defName>
-		<label>UNSC SMG</label>
-		<description>A standard issue smg used by the UNSC.</description>
+	<ThingDef ParentName="BaseMakeableGun" Name="UNSCAssaultRifle">
+		<defName>O21_Halo_UNSCAssaultRifle</defName>
+		<label>UNSC Assault Rifle</label>
+		<description>A standard issue assault rifle for the UNSC.</description>
 		<graphicData>
-			<texPath>HaloRE/Weapon/UNSC/UNSC_SMG</texPath>
+			<texPath>HaloRE/Weapon/UNSC/UNSC_AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>			
 		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
-			<Mass>2.6</Mass>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.20</AccuracyLong>
+			<AccuracyLong>0.26</AccuracyLong>
 			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
 		<techLevel>Spacer</techLevel>
 		<weaponTags>
 			<li>UNSCWeapon</li>
 			<li>UNSCRanged</li>
-			<li>UNSCSMG</li>
+			<li>UNSCAssaultRifle</li>
 		</weaponTags>
 		<tradeTags>
 			<li>UNSCRanged</li>
 		</tradeTags>
 		<costList>
-			<Steel>40</Steel>
+			<Steel>80</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>O21_Halo_UNSCWeapons</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>O21_Halo_Bullet_UNSCSMG</defaultProjectile>
-				<warmupTime>1.2</warmupTime>
-				<range>22.9</range>
+				<defaultProjectile>O21_Halo_Bullet_UNSCAssaultRifle</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
-				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<soundCast>O21_Halo_UNSC_SMGSound</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<soundCast>O21_Halo_UNSC_AssaultRifleSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
@@ -72,8 +79,8 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>O21_Halo_Bullet_UNSCSMG</defName>
-		<label>M7 bullet</label>
+		<defName>O21_Halo_Bullet_UNSCAssaultRifle</defName>
+		<label>MA5B bullet</label>
 		<graphicData>
 			<texPath>HaloRE/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -81,16 +88,16 @@
 		<projectile>
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
-			<speed>55</speed>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>70</speed>
 		</projectile>
 	</ThingDef>
 
 	<ThingStyleDef>
-		<defName>O21_Halo_InnieSMG</defName>
-		<description>A standard issue smg used by the UNSC and 'aquired' by the Innies.</description>
+		<defName>O21_Halo_InnieAssaultRifle</defName>
+		<description>A standard issue assault rifle used by the UNSC and 'aquired' by the Innies.</description>
 		<graphicData>
-			<texPath>HaloRE/Weapon/UNSC/Innie_SMG</texPath>
+			<texPath>HaloRE/Weapon/UNSC/Innie_AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>

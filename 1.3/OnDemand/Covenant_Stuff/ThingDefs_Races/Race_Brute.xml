@@ -60,7 +60,7 @@
 						<li>Normal</li>
 					</aliencrowntypes>
 					<alienbodytypes>
-						<li>Male</li>
+						<li>Hulk</li>
 					</alienbodytypes>
 					<colorChannels>
 						<li>
@@ -81,12 +81,7 @@
 			</generalSettings>
 			<graphicPaths Inherit="false">
 				<li>
-					<head>HaloRE/Pawn/Brute/Head/</head>
-				</li>
-				<li>
-					<lifeStageDefs>
-						<li>HumanlikeAdult</li>
-					</lifeStageDefs>
+					<head>HaloRE/Pawn/Brute/Heads/</head>
 				</li>
 			</graphicPaths>
 			<styleSettings>
@@ -195,7 +190,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>O21_Halo_AlienLeather_Thick</leatherDef>
+			<leatherDef>O21_AlienLeather_Thick</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Brute</nameGenerator>
 			<body>Human</body>
 			<useMeatFrom>Human</useMeatFrom>

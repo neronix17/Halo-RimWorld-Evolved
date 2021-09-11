@@ -36,6 +36,13 @@
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>O21_Halo_UNSCWeapons</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<verbs>
 			<li>

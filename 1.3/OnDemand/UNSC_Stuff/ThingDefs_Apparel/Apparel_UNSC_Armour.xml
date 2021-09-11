@@ -17,9 +17,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Cloth>40</Cloth>
@@ -75,9 +75,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>60</Steel>
@@ -136,9 +136,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>20</Steel>
@@ -195,9 +195,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchUNSC</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>25</Steel>
