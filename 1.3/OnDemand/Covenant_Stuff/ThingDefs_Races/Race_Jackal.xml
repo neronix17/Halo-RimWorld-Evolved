@@ -58,7 +58,7 @@
 						<li>Normal</li>
 					</aliencrowntypes>
 					<alienbodytypes>
-						<li>Male</li>
+						<li>Thin</li>
 					</alienbodytypes>
                     <colorChannels>
                         <li>
@@ -86,9 +86,20 @@
 					</lifeStageDefs>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<hasHair>false</hasHair>
-			</hairSettings>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 			<relationSettings>
 				<relationChanceModifierChild>1</relationChanceModifierChild>
 				<relationChanceModifierExLover>1</relationChanceModifierExLover>
@@ -103,14 +114,19 @@
 				<cannotReceiveThoughts />
 			</thoughtSettings>
 			<raceRestriction />
+			<compatibility>
+				<isFlesh>True</isFlesh>
+				<isSentient>True</isSentient>
+				<hasBlood>True</hasBlood>
+			</compatibility>
 		</alienRace>
 		<statBases>
-			<MarketValue>2000</MarketValue>
-			<MoveSpeed>4.4</MoveSpeed>
-			<Flammability>0.8</Flammability>
-			<ComfyTemperatureMin>4</ComfyTemperatureMin>
-			<ComfyTemperatureMax>32</ComfyTemperatureMax>
-			<LeatherAmount>18</LeatherAmount>
+			<MarketValue>1750</MarketValue>
+			<MoveSpeed>4.6</MoveSpeed>
+			<ComfyTemperatureMin>16</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
+			<LeatherAmount>50</LeatherAmount>
+			<RoyalFavorValue>3</RoyalFavorValue>
 		</statBases>
 		<tools>
 			<li>
@@ -165,10 +181,10 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Jackal</leatherDef>
+			<leatherDef>O21_AlienLeather_Thin</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Jackal</nameGenerator>
 			<body>Human</body>
-			<meatColor>(237, 204, 204)</meatColor>
+			<useMeatFrom>Human</useMeatFrom>
 			<baseBodySize>0.85</baseBodySize>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
@@ -183,28 +199,24 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabyJackalStage</def>
+					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildJackalStage</def>
-					<minAge>3</minAge>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
 				</li>
 				<li>
-					<def>TeenJackalStage</def>
-					<minAge>11</minAge>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
 				</li>
 				<li>
-					<def>AdultJackalStage</def>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
 					<minAge>18</minAge>
-				</li>
-				<li>
-					<def>ElderJackalStage</def>
-					<minAge>80</minAge>
-				</li>
-				<li>
-					<def>AncestorJackalStage</def>
-					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -228,6 +240,7 @@
 			</ageGenerationCurve>
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
+                <li>Human</li>
 			</hediffGiverSets>
 		</race>
 		<recipes>
@@ -260,6 +273,9 @@
 			<li>RemoveBodyPart</li>
 			<li>Euthanize</li>
 			<li>Anesthetize</li>
+      		<li>CureScaria</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 	

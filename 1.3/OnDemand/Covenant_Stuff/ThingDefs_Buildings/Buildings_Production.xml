@@ -2,13 +2,13 @@
 <Defs>
 
 	<ThingDef ParentName="BenchBase">
-		<defName>O21_Halo_WorkbenchUNSC</defName>
-		<label>unsc workbench</label>
-		<description>A workbench equipped with advanced tools for producing UNSC equipment.</description>
+		<defName>O21_Halo_WorkbenchCov</defName>
+		<label>covenant workbench</label>
+		<description>A workbench equipped with advanced tools for producing Covenant equipment.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<altitudeLayer>Building</altitudeLayer>
 		<graphicData>
-			<texPath>HaloRE/Building/Workbench_UNSC</texPath>
+			<texPath>HaloRE/Building/Workbench_Cov</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.RaceSettings>
@@ -19,8 +19,8 @@
 					</factionDefs>
 				</li>
 			</startingColonists>
-            <alienwandererkinds>
-                <li>
+			<alienwandererkinds>
+				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
@@ -33,8 +33,8 @@
 						<li>CovenantPlayerColony</li>
 					</factionDefs>
 				</li>
-            </alienwandererkinds>
-        </pawnKindSettings>
+			</alienwandererkinds>
+		</pawnKindSettings>
 	</AlienRace.RaceSettings>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Brute">
@@ -49,7 +49,7 @@
 				<forcedRaceTraitEntries />
 				<disallowedTraits />
 				<chemicalSettings />
-				<factionRelations />	
+				<factionRelations />
 				<notXenophobistTowards />
 				<immuneToXenophobia>false</immuneToXenophobia>
 				<alienPartGenerator>
@@ -60,21 +60,21 @@
 					<alienbodytypes>
 						<li>Male</li>
 					</alienbodytypes>
-                    <colorChannels>
-                        <li>
-                            <name>skin</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(160,160,160)</only>
-                                    </li>
-                                </options>
-                            </first>
-                        </li>
-                    </colorChannels>
-					<customDrawSize>(1.25, 1.25)</customDrawSize>
-					<customHeadDrawSize>(1.25, 1.25)</customHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>(160,160,160)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<customDrawSize>(1.2, 1.2)</customDrawSize>
+					<customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths Inherit="false">
@@ -87,13 +87,20 @@
 					</lifeStageDefs>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<hasHair>true</hasHair>
-				<getsGreyAt>65</getsGreyAt> 
-				<hairTags>
-					<li>BruteHair</li>
-				</hairTags>
-			</hairSettings>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 			<relationSettings>
 				<relationChanceModifierChild>1</relationChanceModifierChild>
 				<relationChanceModifierExLover>1</relationChanceModifierExLover>
@@ -108,16 +115,20 @@
 				<cannotReceiveThoughts />
 			</thoughtSettings>
 			<raceRestriction />
+			<compatibility>
+				<isFlesh>True</isFlesh>
+				<isSentient>True</isSentient>
+				<hasBlood>True</hasBlood>
+			</compatibility>
 		</alienRace>
 		<statBases>
-			<MarketValue>2200</MarketValue>
-			<MoveSpeed>5.3</MoveSpeed>
+			<MarketValue>1750</MarketValue>
+			<MoveSpeed>5.2</MoveSpeed>
 			<Flammability>0.3</Flammability>
 			<ComfyTemperatureMin>8</ComfyTemperatureMin>
 			<ComfyTemperatureMax>28</ComfyTemperatureMax>
-			<LeatherAmount>30</LeatherAmount>
+			<LeatherAmount>60</LeatherAmount>
 			<PsychicSensitivity>0.7</PsychicSensitivity>
-			<MiningSpeed>1.8</MiningSpeed>
 		</statBases>
 		<tools>
 			<li>
@@ -182,10 +193,10 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>Leather_Brute</leatherDef>
+			<leatherDef>O21_AlienLeather_Thick</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Brute</nameGenerator>
 			<body>Human</body>
-			<meatColor>(237, 204, 204)</meatColor>
+			<useMeatFrom>Human</useMeatFrom>
 			<baseBodySize>1.2</baseBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
@@ -200,28 +211,24 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>BabyBruteStage</def>
+					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ChildBruteStage</def>
-					<minAge>3</minAge>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
 				</li>
 				<li>
-					<def>TeenBruteStage</def>
-					<minAge>11</minAge>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
 				</li>
 				<li>
-					<def>AdultBruteStage</def>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
 					<minAge>18</minAge>
-				</li>
-				<li>
-					<def>ElderBruteStage</def>
-					<minAge>80</minAge>
-				</li>
-				<li>
-					<def>AncestorBruteStage</def>
-					<minAge>120</minAge>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -245,6 +252,7 @@
 			</ageGenerationCurve>
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
+                <li>Human</li>
 			</hediffGiverSets>
 		</race>
 		<recipes>
@@ -277,7 +285,10 @@
 			<li>RemoveBodyPart</li>
 			<li>Euthanize</li>
 			<li>Anesthetize</li>
+      		<li>CureScaria</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
-	
+
 </Defs>
