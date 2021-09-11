@@ -2,20 +2,21 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Grunt_Settings</defName>
+		<defName>O21_Halo_Grunt_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Grunt</li>
+								<li>O21_Halo_Grunt</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_GruntPlayerColony</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -24,13 +25,14 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Grunt</li>
+								<li>O21_Halo_Grunt</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_GruntPlayerColony</li>
 					</factionDefs>
 				</li>
             </alienwandererkinds>
@@ -183,7 +185,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>O21_AlienLeather_Scaled</leatherDef>
+			<leatherDef>O21_Halo_AlienLeather_Scaled</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Grunt</nameGenerator>
 			<body>Human</body>
 			<useMeatFrom>Human</useMeatFrom>

@@ -48,9 +48,6 @@
 			<li>CovenantRanged</li>
 			<li>CovenantBeamRifle</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
 		</tradeTags>

@@ -80,9 +80,6 @@
 			<li>CovenantRanged</li>
 			<li>CovenantFuelRodCannon</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
 		</tradeTags>
@@ -112,22 +109,6 @@
 			<speed>30</speed>
 			<soundExplode>O21_Halo_Covenant_FuelRodCannonImpact</soundExplode>
 		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="CovenantFuelRodCannon">
-		<defName>O21_Halo_SOSFuelRodCannon</defName>
-		<label>Type-33 Light Anti-Armor Weapon (sos)</label>
-		<graphicData>
-			<texPath>HaloRE/Weapon/SwordsOfSanghelios/FuelRodCannon</texPath>
-		</graphicData>
-		<weaponTags Inherit="False">
-			<li>SOSWeapon</li>
-			<li>SOSRanged</li>
-			<li>SOSFuelRodCannon</li>
-		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>SOSRanged</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

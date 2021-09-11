@@ -2,49 +2,49 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>O21_Halo_PlasmaRifle_Swords</defName>
+		<defName>O21_Halo_PlasmaPistol_Swords</defName>
 		<graphicData>
-			<texPath>HaloRE/Weapon/Covenant/SoS_PlasmaRifle</texPath>
+			<texPath>HaloRE/Weapon/Covenant/SoS_PlasmaPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>O21_Halo_PlasmaRifle_Heretic</defName>
+		<defName>O21_Halo_PlasmaPistol_Heretic</defName>
 		<graphicData>
-			<texPath>HaloRE/Weapon/Covenant/Heretic_PlasmaRifle</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Heretic_PlasmaPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingDef ParentName="BaseMakeableGun" Name="CovenantPlasmaRifle">
-		<defName>O21_Halo_PlasmaRifle_Covenant</defName>
-		<label>Plasma Rifle</label>
-		<description>The Type-25 Directed Energy Rifle, more commonly known as the Plasma Rifle, is a Covenant infantry weapon.</description>
+	<ThingDef ParentName="BaseMakeableGun" Name="CovenantPlasmaPistol">
+		<defName>O21_Halo_PlasmaPistol_Covenant</defName>
+		<label>Plasma Pistol</label>
+		<description>The Type-25 Directed Energy Pistol, also known as the Plasma Pistol, is a Covenant infantry firearm commonly wielded by the smaller Covenant member species, such as the Unggoy, Kig-Yar, and the Yanme'e.</description>
 		<graphicData>
-			<texPath>HaloRE/Weapon/Covenant/Cov_PlasmaRifle</texPath>
+			<texPath>HaloRE/Weapon/Covenant/Cov_PlasmaPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>2.2</Mass>
+			<Mass>1.2</Mass>
 			<AccuracyTouch>0.45</AccuracyTouch>
 			<AccuracyShort>0.70</AccuracyShort>
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.30</AccuracyLong>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>O21_Halo_Bullet_PlasmaRifle</defaultProjectile>
-				<warmupTime>0.5</warmupTime>
-				<range>31</range>
-				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<defaultProjectile>O21_Halo_Bullet_PlasmaPistol</defaultProjectile>
+				<warmupTime>1.3</warmupTime>
+				<range>26</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
-				<soundCast>O21_Halo_Covenant_PlasmaRifleSound</soundCast>
+				<soundCast>O21_Halo_Covenant_PlasmaPistolSound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 				<targetParams>
@@ -75,11 +75,8 @@
 		<weaponTags>
 			<li>CovenantWeapon</li>
 			<li>CovenantRanged</li>
-			<li>CovenantPlasmaRifle</li>
+			<li>CovenantPlasmaPistol</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
 		</tradeTags>
@@ -93,42 +90,26 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>O21_Halo_Bullet_PlasmaRifle</defName>
-		<label>plasma rifle shot</label>
+		<defName>O21_Halo_Bullet_PlasmaPistol</defName>
+		<label>plasma pistol shot</label>
 		<graphicData>
-			<texPath>HaloRE/Projectile/PlasmaShotSmall</texPath>
+			<texPath>HaloRE/Projectile/PlasmaShotSmallGreen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<damageDef>O21_Halo_Damage_Plasma</damageDef>
 			<damageAmountBase>6</damageAmountBase>
-			<armorPenetrationBase>0.35</armorPenetrationBase>
-			<stoppingPower>0.2</stoppingPower>
-			<speed>85</speed>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<stoppingPower>0.15</stoppingPower>
+			<speed>70</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>
-					<amount>6</amount>
-					<armorPenetration>0.5</armorPenetration>
+					<amount>30</amount>
+					<armorPenetration>1.0</armorPenetration>
 				</li>
 			</extraDamages>
 		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="CovenantPlasmaRifle">
-		<defName>O21_Halo_SOSPlasmaRifle</defName>
-		<label>Type-25 Directed Energy Rifle (sos)</label>
-		<graphicData>
-			<texPath>HaloRE/Weapon/SwordsOfSanghelios/PlasmaRifle</texPath>
-		</graphicData>
-		<weaponTags Inherit="False">
-			<li>SOSWeapon</li>
-			<li>SOSRanged</li>
-			<li>SOSPlasmaRifle</li>
-		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>SOSRanged</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

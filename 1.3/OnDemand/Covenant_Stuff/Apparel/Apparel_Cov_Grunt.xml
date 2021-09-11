@@ -12,14 +12,14 @@
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>60</Steel>
@@ -73,14 +73,14 @@
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>20</Steel>
@@ -132,13 +132,13 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>25</Steel>

@@ -31,9 +31,6 @@
 			<li>CovenantMelee</li>
 			<li>CovenantGravityHammer</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantMelee</li>
 		</tradeTags>

@@ -13,13 +13,13 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Cloth>60</Cloth>
@@ -70,13 +70,13 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>60</Steel>
@@ -131,13 +131,13 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>20</Steel>
@@ -188,6 +188,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(83, 73, 133)</color>
 		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
+		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/BrutePauldronsMajor/Apparel</wornGraphicPath>
 		</apparel>
@@ -202,19 +205,19 @@
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteSkullcap/Head</texPath>
+			<texPath>HaloRE/Apparel/BruteSkullcap/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>25</Steel>
@@ -229,7 +232,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteSkullcap/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteSkullcap/Normal</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -256,19 +259,19 @@
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteHelmetMinor/Head</texPath>
+			<texPath>HaloRE/Apparel/BruteHelmetMinor/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>25</Steel>
@@ -283,7 +286,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMinor/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMinor/Normal</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -310,12 +313,15 @@
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
-			<texPath>HaloRE/Apparel/BruteHelmetMajor/Head</texPath>
+			<texPath>HaloRE/Apparel/BruteHelmetMajor/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
 			<color>(83, 73, 133)</color>
 		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
+		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMajor/Head</wornGraphicPath>
+			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMajor/Normal</wornGraphicPath>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Single">
 			<color>(83, 73, 133)</color>

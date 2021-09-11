@@ -2,20 +2,21 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Brute_Settings</defName>
+		<defName>O21_Halo_Brute_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Brute</li>
+								<li>O21_Halo_Brute</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_BrutePlayerColony</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -24,13 +25,14 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Brute</li>
+								<li>O21_Halo_Brute</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_BrutePlayerColony</li>
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
@@ -193,7 +195,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>O21_AlienLeather_Thick</leatherDef>
+			<leatherDef>O21_Halo_AlienLeather_Thick</leatherDef>
 			<nameGenerator>O21_Halo_NamerPerson_Brute</nameGenerator>
 			<body>Human</body>
 			<useMeatFrom>Human</useMeatFrom>

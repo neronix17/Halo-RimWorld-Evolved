@@ -48,9 +48,6 @@
 			<li>CovenantRanged</li>
 			<li>CovenantCarbine</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
 		</tradeTags>
@@ -117,22 +114,6 @@
 				</li>
 			</extraDamages>
 		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="CovenantCarbine">
-		<defName>O21_Halo_SOSCarbine</defName>
-		<label>Type-51 Carbine (sos)</label>
-		<graphicData>
-			<texPath>HaloRE/Weapon/SwordsOfSanghelios/Carbine</texPath>
-		</graphicData>
-		<weaponTags Inherit="False">
-			<li>SOSWeapon</li>
-			<li>SOSRanged</li>
-			<li>SOSCarbine</li>
-		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>SOSRanged</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

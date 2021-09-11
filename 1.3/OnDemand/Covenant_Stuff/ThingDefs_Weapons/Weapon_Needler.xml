@@ -89,9 +89,6 @@
 			<li>CovenantRanged</li>
 			<li>CovenantNeedler</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantRanged</li>
 		</tradeTags>
@@ -110,22 +107,6 @@
 			<armorPenetrationBase>0.16</armorPenetrationBase>
 			<speed>80</speed>
 		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="CovenantNeedler">
-		<defName>O21_Halo_SOSNeedler</defName>
-		<label>Type-33 Guided Munitions Launcher (sos)</label>
-		<graphicData>
-			<texPath>HaloRE/Weapon/SwordsOfSanghelios/Needler</texPath>
-		</graphicData>
-		<weaponTags Inherit="False">
-			<li>SOSWeapon</li>
-			<li>SOSRanged</li>
-			<li>SOSNeedler</li>
-		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>SOSRanged</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

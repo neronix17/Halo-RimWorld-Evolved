@@ -2,20 +2,21 @@
 <Defs>
 
 	<AlienRace.RaceSettings>
-		<defName>Jackal_Settings</defName>
+		<defName>O21_Halo_Jackal_Settings</defName>
 		<pawnKindSettings>
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Jackal</li>
+								<li>O21_Halo_Jackal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_JackalPlayerColony</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -24,13 +25,14 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Jackal</li>
+								<li>O21_Halo_Jackal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>CovenantPlayerColony</li>
+						<li>O21_Halo_CovenantPlayerColony</li>
+						<li>O21_Halo_JackalPlayerColony</li>
 					</factionDefs>
 				</li>
             </alienwandererkinds>
@@ -181,8 +183,8 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
-			<leatherDef>O21_AlienLeather_Thin</leatherDef>
-			<nameGenerator>O21_Halo_NamerPerson_Jackal</nameGenerator>
+			<leatherDef>O21_Halo_AlienLeather_Thin</leatherDef>
+			<nameGenerator>O21_Halo_NamerPerson_Grunt</nameGenerator>
 			<body>Human</body>
 			<useMeatFrom>Human</useMeatFrom>
 			<baseBodySize>0.85</baseBodySize>

@@ -111,7 +111,6 @@
 			<drawSize>(4.5, 4.5)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-		<menuHidden>true</menuHidden>
 		<destroyOnDrop>true</destroyOnDrop>
 		<tradeability>None</tradeability>
 		<useHitPoints>false</useHitPoints>
@@ -254,7 +253,6 @@
 			<drawSize>(7, 7)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-		<menuHidden>true</menuHidden>
 		<destroyOnDrop>true</destroyOnDrop>
 		<tradeability>None</tradeability>
 		<useHitPoints>false</useHitPoints>

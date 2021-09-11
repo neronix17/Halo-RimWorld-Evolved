@@ -35,9 +35,6 @@
 			<li>CovenantEnergySword</li>
 			<li>SOSEnergySword</li>
 		</weaponTags>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
 		<tradeTags>
 			<li>CovenantMelee</li>
 			<li>SOSMelee</li>

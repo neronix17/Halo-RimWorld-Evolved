@@ -2,8 +2,8 @@
 <Defs>
 	
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>O21_Halo_Cov_EliteUndersuit</defName>
-		<label>elite undersuit</label>
+		<defName>O21_Halo_Cov_Undersuit</defName>
+		<label>covenant undersuit</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
@@ -12,14 +12,14 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Cloth>60</Cloth>
@@ -69,14 +69,14 @@
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>60</Steel>
@@ -130,14 +130,14 @@
 			<color>(83, 73, 133)</color>
 		</graphicData>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>20</Steel>
@@ -190,13 +190,13 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <!--<recipeUsers Inherit="False">
-                <li>O21_Halo_Covenant_ArmouryBench</li>
-            </recipeUsers>-->
+            <recipeUsers Inherit="False">
+                <li>O21_Halo_WorkbenchCov</li>
+            </recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>25</Steel>
