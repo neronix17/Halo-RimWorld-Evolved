@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>HaloRE/Apparel/GruntArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(83, 73, 133)</color>
+			<color>(204, 115, 49)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -39,7 +39,6 @@
 		</tradeTags>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/GruntArmor/Apparel</wornGraphicPath>
-			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -58,7 +57,7 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
+			<color>(204, 115, 49)</color>
 		</colorGenerator>
 	</ThingDef>
 	
@@ -70,7 +69,7 @@
 		<graphicData>
 			<texPath>HaloRE/Apparel/GruntPauldrons/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(83, 73, 133)</color>
+			<color>(204, 115, 49)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -117,7 +116,7 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
+			<color>(204, 115, 49)</color>
 		</colorGenerator>
 	</ThingDef>
 

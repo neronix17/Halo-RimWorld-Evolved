@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>HaloRE/Apparel/JackalArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(83, 73, 133)</color>
+			<color>(81,110,157)</color>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -39,7 +39,6 @@
 		</tradeTags>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/JackalArmor/Apparel</wornGraphicPath>
-			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -58,7 +57,7 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Single">
-			<color>(83, 73, 133)</color>
+			<color>(81,110,157)</color>
 		</colorGenerator>
 	</ThingDef>
 
