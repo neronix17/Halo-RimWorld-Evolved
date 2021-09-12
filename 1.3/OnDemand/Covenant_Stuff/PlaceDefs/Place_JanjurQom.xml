@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlaceDef>
+		<defName>O21_Halo_JanjurQom</defName>
+		<tags>
+			<li>O21_Halo_OriginCovenant</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- . -->
+				<li>place_name->Janjur Qom</li>
+				<li>place_adjective->San'Shyuum</li>
+				<li>place_summary->predominantly jungle world</li>
+				<li>place_community->city</li>
+				<li>place_powerCenter->forerunner dreadnought</li>
+				<li>place_job->protector</li>
+				<li>place_job->politician</li>
+				<li>place_job->librarian</li>
+				<li>place_job->warrior</li>
+				<li>place_personalWeapon->plasma pistol</li>
+				<li>place_massWeapon->forerunner dreadnought</li>
+				<li>place_foeLeader->prophet</li>
+				<li>place_foeSoldiers->reformists</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+
+</Defs>

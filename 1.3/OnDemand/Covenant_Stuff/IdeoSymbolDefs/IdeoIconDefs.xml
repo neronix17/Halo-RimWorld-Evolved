@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<IdeoIconDef>
+		<defName>O21_Halo_GreatJourney</defName>
+		<iconPath>HaloRE/UI/Cultures/GreatJourney</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>O21_Halo_UNSCDoctrine</defName>
+		<iconPath>HaloRE/UI/Cultures/UNSCDoctrine</iconPath>
+	</IdeoIconDef>
+
+</Defs>

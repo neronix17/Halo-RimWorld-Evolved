@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="BaseChissAscendancyPawn" Abstract="True">
+		<race>O21_Halo_Elite</race>
+		<defaultFactionType>O21_Halo_CovenantEmpire</defaultFactionType>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<baseRecruitDifficulty>0.99</baseRecruitDifficulty>
+		<invNutrition>2.55</invNutrition>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<isFighter>true</isFighter>
+		<apparelMoney>
+			<min>500</min>
+			<max>1200</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>CovenantApparel</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>800</min>
+			<max>1200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CovenantWeapons</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>12000</min>
+			<max>20000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.05</techHediffsChance>
+		<initialWillRange>5~10</initialWillRange>
+		<initialResistanceRange>10~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseChissAscendancyPawn">
+		<defName>O21_OR_ChissAscendancy_Trooper</defName>
+		<label>trooper</label>
+		<apparelRequired>
+			<li>O21_OR_ChissOfficerUniform</li>
+		</apparelRequired>
+		<combatPower>35</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseChissAscendancyPawn">
+		<defName>O21_OR_ChissAscendancy_Officer</defName>
+		<label>officer</label>
+		<apparelRequired>
+			<li>O21_OR_ChissOfficerUniform</li>
+		</apparelRequired>
+		<combatPower>55</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseChissAscendancyPawn">
+		<defName>O21_OR_ChissAscendancy_Trader</defName>
+		<label>trader</label>
+		<trader>true</trader>
+		<apparelRequired>
+			<li>O21_OR_ChissOfficerUniform</li>
+		</apparelRequired>
+		<combatPower>40</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseChissAscendancyPawn">
+		<defName>O21_OR_ChissAscendancy_Syndic</defName>
+		<label>syndic</label>
+		<labelPlural>syndics</labelPlural>
+		<combatPower>40</combatPower>
+		<factionLeader>true</factionLeader>
+		<apparelRequired>
+			<li>O21_OR_ChissCommanderUniform</li>
+		</apparelRequired>
+		<minGenerationAge>30</minGenerationAge>
+	</PawnKindDef>
+
+</Defs>

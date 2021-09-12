@@ -112,7 +112,7 @@
 			<damageAmountBase>32</damageAmountBase>
 			<armorPenetrationBase>0.4</armorPenetrationBase>
 			<stoppingPower>0.5</stoppingPower>
-			<speed>105</speed>
+			<speed>100</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>

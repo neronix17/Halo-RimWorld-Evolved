@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CultureDef>
+		<defName>O21_OR_CultureCovenant</defName>
+		<label>great journey</label>
+		<description>.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_IdeoCovenant</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_DeityCovenant</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_DeityTypeMakerCovenant</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_LeaderTitleMakerCovenant</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_NamerFestivalCovenant</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>O21_Halo_OriginCovenant</li>
+		</allowedPlaceTags>
+		<iconPath>HaloRE/UI/Cultures/GreatJourney</iconPath>
+		<iconColor>(0.8, 0.8, 0.8)</iconColor>
+		<thingStyleCategories>
+			<!-- <li MayRequire="Ludeon.RimWorld.Ideology">
+				<category>O21_OR_StyleCovenant</category>
+				<priority>2</priority>
+			</li> -->
+		</thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardRural</tag>
+				<baseWeight>0.1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardUrban</tag>
+				<baseWeight>0.2</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<modExtensions>
+			<li Class="O21Toolbox.Culture.DefModExt_CultureExtended">
+				<ideoIconDef>O21_Halo_GreatJourney</ideoIconDef>
+			</li>
+		</modExtensions>
+	</CultureDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>O21_OR_IdeoCovenant</defName>
+		<rulePack>
+			<rulesStrings>
+				<!-- From symbol pack -->
+				<li>r_ideoName->great journey</li>
+				<li>r_ideoAdjective->pilgrim</li>
+				<li>r_memberName->citizen</li>
+
+				<!-- Generic content -->
+				<li>globalAdjective->Galactic</li>
+				<li>globalAdjective->New</li>
+				<li>globalAdjective->True</li>
+				<li>globalAdjective->Reformed</li>
+				<li>globalAdjective->Stoic</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>O21_OR_DeityCovenant</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName->Librarian</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>O21_OR_DeityTypeMakerCovenant</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->Forerunner</li>
+
+				<li>god->Forerunner</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>O21_OR_LeaderTitleMakerCovenant</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->prophet</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>O21_OR_NamerFestivalCovenant</defName>
+		<include>
+			<li>NamerFestivalGlobal</li>
+		</include>
+	</RulePackDef>
+
+</Defs>
