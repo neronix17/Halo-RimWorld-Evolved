@@ -5,7 +5,7 @@
 		<defName>O21_Halo_Cov_BruteUndersuit</defName>
 		<label>brute undersuit</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Apparel commonly worn by Brutes, under their armour.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BruteUndersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -62,7 +62,7 @@
 		<defName>O21_Halo_Cov_BruteArmor</defName>
 		<label>brute armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Armor commonly worn by Brutes.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BruteArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -122,7 +122,7 @@
 		<defName>O21_Halo_Cov_BrutePauldronsMinor</defName>
 		<label>brute minor pauldrons</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Pauldrons commonly worn by Brute Minors.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BrutePauldronsMinor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -181,7 +181,7 @@
 		<defName>O21_Halo_Cov_BrutePauldronsMajor</defName>
 		<label>brute major pauldrons</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Pauldrons commonly worn by Brute Majors.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BrutePauldronsMajor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -202,7 +202,7 @@
 		<defName>O21_Halo_Cov_BruteSkullcap</defName>
 		<label>brute minor skullcap</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Skullcap commonly worn by Brute Minors.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BruteSkullcap/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
@@ -252,10 +252,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteHelmet">
-		<defName>O21_Halo_Cov_BruteHelmetMinor</defName>
+		<defName>O21_Halo_Cov_BruteHelmetMajor</defName>
 		<label>brute major helmet</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Helmet commonly worn by Brute Majors.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BruteHelmetMinor/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
@@ -263,7 +263,7 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -305,10 +305,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="CovBruteHelmet">
-		<defName>O21_Halo_Cov_BruteHelmetMajor</defName>
+		<defName>O21_Halo_Cov_BruteHelmetCaptain</defName>
 		<label>brute captain helmet</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Helmet commonly worn by Brute Captains.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/BruteHelmetMajor/Normal</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 

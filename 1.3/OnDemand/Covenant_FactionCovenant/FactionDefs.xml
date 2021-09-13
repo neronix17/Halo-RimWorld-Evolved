@@ -16,6 +16,9 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>commander</leaderTitle>
+		<fixedLeaderKinds>
+			<li>O21_Halo_CovenantEliteCommander</li>
+		</fixedLeaderKinds>
 		<permanentEnemy>false</permanentEnemy>
 		<permanentEnemyToEveryoneExceptPlayer>true</permanentEnemyToEveryoneExceptPlayer>
 		<fixedName>Covenant Empire</fixedName>
@@ -121,7 +124,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
 		</requiredMemes>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>

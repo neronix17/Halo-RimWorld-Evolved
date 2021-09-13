@@ -5,7 +5,7 @@
 		<defName>O21_Halo_Cov_EliteArmor</defName>
 		<label>elite armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Armor commonly worn by Elites.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/EliteArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -65,7 +65,7 @@
 		<defName>O21_Halo_Cov_ElitePauldrons</defName>
 		<label>elite pauldrons</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Pauldrons commonly worn by Elites.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/ElitePauldrons/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -124,7 +124,7 @@
 		<defName>O21_Halo_Cov_EliteHelmet</defName>
 		<label>elite helmet</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Helmet commonly worn by Elites.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/EliteHelmet/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 

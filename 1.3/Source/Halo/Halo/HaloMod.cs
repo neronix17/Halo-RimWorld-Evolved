@@ -47,27 +47,27 @@ namespace Halo
             listingStandard.Gap(48);
 
             listingStandard.CheckboxEnhanced("Human Content", "Toggles human content, the apparel, weapons, etc. which is used by the UNSC and Innies", ref settings.content_humans);
-            if (settings.content_humans)
-            {
-                listingStandard.GapLine();
-                listingStandard.CheckboxEnhanced("Faction: UNSC", "Human military force, comprised of marines and Spartans.", ref settings.faction_unsc);
-                listingStandard.CheckboxEnhanced("Faction: Insurrectionists", "Human organisation for liberation from the UEG and UNSC.", ref settings.faction_innies);
-            }
+            //if (settings.content_humans)
+            //{
+            //    listingStandard.GapLine();
+            //    listingStandard.CheckboxEnhanced("Faction: UNSC", "Human military force, comprised of marines and Spartans.", ref settings.faction_unsc);
+            //    listingStandard.CheckboxEnhanced("Faction: Insurrectionists", "Human organisation for liberation from the UEG and UNSC.", ref settings.faction_innies);
+            //}
             listingStandard.GapLine(24f);
 
             listingStandard.CheckboxEnhanced("Covenant Content", "Toggles Covenant content, the races, apparel, weapons, etc. which is used by the Covenant and their splinter factions.", ref settings.content_covenant);
-            //if (settings.content_covenant)
-            //{
-            //    listingStandard.GapLine();
-            //    listingStandard.CheckboxEnhanced("Faction: Covenant Empire", "The Covenant Empire as led by the Prophets, comprised of various races.", ref settings.faction_covenant);
-            //    listingStandard.CheckboxEnhanced("Faction: Swords of Sanghelios", "The Sangheili dominated Covenant splinter faction uses the usual Covenant Empire tech.", ref settings.faction_swords);
-            //    listingStandard.CheckboxEnhanced("Faction: The Banished", "A Brute dominated Covenant splinter faction, they have a mix of other Covenant races along with using Covenant tech with their own twist to it.", ref settings.faction_banished);
-            //}
+            if (settings.content_covenant)
+            {
+                listingStandard.GapLine();
+                listingStandard.CheckboxEnhanced("Faction: Covenant Empire", "The Covenant Empire as led by the Prophets, comprised of various races.", ref settings.faction_covenant);
+                // listingStandard.CheckboxEnhanced("Faction: Swords of Sanghelios", "The Sangheili dominated Covenant splinter faction uses the usual Covenant Empire tech.", ref settings.faction_swords);
+                // listingStandard.CheckboxEnhanced("Faction: The Banished", "A Brute dominated Covenant splinter faction, they have a mix of other Covenant races along with using Covenant tech with their own twist to it.", ref settings.faction_banished);
+            }
 
             listingStandard.NewColumn();
             listingStandard.Gap(48);
 
-            listingStandard.CheckboxEnhanced("Forerunner Content", "Toggles Forerunner content, which can appear in many ways, as ruins, incidents, world map events, etc.", ref settings.content_forerunner);
+            //listingStandard.CheckboxEnhanced("Forerunner Content", "Toggles Forerunner content, which can appear in many ways, as ruins, incidents, world map events, etc.", ref settings.content_forerunner);
             //if (settings.content_forerunner)
             //{
             //    listingStandard.GapLine();

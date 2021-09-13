@@ -5,7 +5,7 @@
 		<defName>O21_Halo_Cov_Undersuit</defName>
 		<label>covenant undersuit</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Apparel commonly worn by covenant forces under their armour.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/EliteUndersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

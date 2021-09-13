@@ -5,7 +5,7 @@
 		<defName>O21_Halo_Cov_GruntArmor</defName>
 		<label>grunt armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Armor commonly worn by Grunts.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/GruntArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -65,7 +65,7 @@
 		<defName>O21_Halo_Cov_GruntPauldrons</defName>
 		<label>grunt pauldrons</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Pauldrons commonly worn by Grunts.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/GruntPauldrons/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -124,7 +124,7 @@
 		<defName>O21_Halo_Cov_GruntMask</defName>
 		<label>grunt methane mask</label>
 		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
+		<description>Armored methane mask worn by Grunts.</description>
 		<graphicData>
 			<texPath>HaloRE/Apparel/GruntMask/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
