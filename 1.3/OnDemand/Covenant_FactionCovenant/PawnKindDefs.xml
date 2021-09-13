@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Name="BaseChissAscendancyPawn" Abstract="True">
+	<PawnKindDef Name="BaseCovenantPawnKind" Abstract="True">
 		<race>O21_Halo_Elite</race>
 		<defaultFactionType>O21_Halo_CovenantEmpire</defaultFactionType>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -38,44 +38,284 @@
 		<initialResistanceRange>10~20</initialResistanceRange>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseChissAscendancyPawn">
-		<defName>O21_OR_ChissAscendancy_Trooper</defName>
-		<label>trooper</label>
-		<apparelRequired>
-			<li>O21_OR_ChissOfficerUniform</li>
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantGrunt</defName>
+		<label>grunt</label>
+		<race>O21_Halo_Grunt</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_GruntArmor</li>
+			<li>O21_Halo_Cov_GruntPauldrons</li>
+			<li>O21_Halo_Cov_GruntMask</li>
 		</apparelRequired>
-		<combatPower>35</combatPower>
+		<weaponTags Inherit="False">
+			<li>CovenantPlasmaPistol</li>
+			<li>CovenantNeedler</li>
+		</weaponTags>
+		<combatPower>40</combatPower>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseChissAscendancyPawn">
-		<defName>O21_OR_ChissAscendancy_Officer</defName>
-		<label>officer</label>
-		<apparelRequired>
-			<li>O21_OR_ChissOfficerUniform</li>
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantHeavyGrunt</defName>
+		<label>heavy grunt</label>
+		<race>O21_Halo_Grunt</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_GruntArmor</li>
+			<li>O21_Halo_Cov_GruntPauldrons</li>
+			<li>O21_Halo_Cov_GruntMask</li>
 		</apparelRequired>
-		<combatPower>55</combatPower>
+		<weaponTags Inherit="False">
+			<li>CovenantFuelRodCannon</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+		</specificApparelRequirements>
+		<combatPower>120</combatPower>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseChissAscendancyPawn">
-		<defName>O21_OR_ChissAscendancy_Trader</defName>
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantJackal</defName>
+		<label>jackal</label>
+		<race>O21_Halo_Jackal</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_JackalArmor</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantBeamRifle</li>
+			<li>CovenantCarbine</li>
+		</weaponTags>
+		<combatPower>50</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantEliteMinor</defName>
+		<label>elite minor</label>
+		<race>O21_Halo_Elite</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_EliteArmor</li>
+			<li>O21_Halo_Cov_EliteHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantPlasmaRifle</li>
+			<li>CovenantCarbine</li>
+		</weaponTags>
+		<combatPower>65</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantEliteMajor</defName>
+		<label>elite major</label>
+		<race>O21_Halo_Elite</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_EliteArmor</li>
+			<li>O21_Halo_Cov_ElitePauldrons</li>
+			<li>O21_Halo_Cov_EliteHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantPlasmaRifle</li>
+			<li>CovenantCarbine</li>
+			<li>CovenantEnergySword</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(163, 36, 42)</color>
+			</li>
+		</specificApparelRequirements>
+		<combatPower>75</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantEliteUltra</defName>
+		<label>elite ultra</label>
+		<race>O21_Halo_Elite</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_EliteArmor</li>
+			<li>O21_Halo_Cov_ElitePauldrons</li>
+			<li>O21_Halo_Cov_EliteHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantEnergySword</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+		</specificApparelRequirements>
+		<combatPower>75</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantBruteMinor</defName>
+		<label>brute minor</label>
+		<race>O21_Halo_Brute</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_BruteUndersuit</li>
+			<li>O21_Halo_Cov_BruteArmor</li>
+			<li>O21_Halo_Cov_BruteSkullcap</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantBruteShot</li>
+		</weaponTags>
+		<combatPower>65</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantBruteMajor</defName>
+		<label>brute major</label>
+		<race>O21_Halo_Brute</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_BruteUndersuit</li>
+			<li>O21_Halo_Cov_BruteArmor</li>
+			<li>O21_Halo_Cov_BrutePauldronsMinor</li>
+			<li>O21_Halo_Cov_BruteHelmetMinor</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantBruteShot</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(81, 111, 157)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(81, 111, 157)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(81, 111, 157)</color>
+			</li>
+		</specificApparelRequirements>
+		<combatPower>75</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantBruteCaptain</defName>
+		<label>brute captain</label>
+		<race>O21_Halo_Brute</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_BruteUndersuit</li>
+			<li>O21_Halo_Cov_BruteArmor</li>
+			<li>O21_Halo_Cov_BrutePauldronsMajor</li>
+			<li>O21_Halo_Cov_BruteHelmetMajor</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantBruteShot</li>
+			<li>CovenantGravityHammer</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+		</specificApparelRequirements>
+		<combatPower>75</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantGruntTrader</defName>
 		<label>trader</label>
 		<trader>true</trader>
-		<apparelRequired>
-			<li>O21_OR_ChissOfficerUniform</li>
+		<race>O21_Halo_Grunt</race>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_GruntArmor</li>
+			<li>O21_Halo_Cov_GruntPauldrons</li>
+			<li>O21_Halo_Cov_GruntMask</li>
 		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantPlasmaPistol</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(255, 255, 255)</color>
+			</li>
+		</specificApparelRequirements>
 		<combatPower>40</combatPower>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseChissAscendancyPawn">
-		<defName>O21_OR_ChissAscendancy_Syndic</defName>
-		<label>syndic</label>
-		<labelPlural>syndics</labelPlural>
-		<combatPower>40</combatPower>
+	<PawnKindDef ParentName="BaseCovenantPawnKind">
+		<defName>O21_Halo_CovenantEliteCommander</defName>
+		<label>elite commander</label>
+		<race>O21_Halo_Elite</race>
 		<factionLeader>true</factionLeader>
-		<apparelRequired>
-			<li>O21_OR_ChissCommanderUniform</li>
+		<apparelRequired Inherit="False">
+			<li>O21_Halo_Cov_Undersuit</li>
+			<li>O21_Halo_Cov_EliteArmor</li>
+			<li>O21_Halo_Cov_ElitePauldrons</li>
+			<li>O21_Halo_Cov_EliteHelmet</li>
 		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>CovenantPlasmaRifle</li>
+			<li>CovenantEnergySword</li>
+		</weaponTags>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(200, 167, 59)</color>
+			</li>
+		</specificApparelRequirements>
 		<minGenerationAge>30</minGenerationAge>
+		<combatPower>80</combatPower>
 	</PawnKindDef>
 
 </Defs>

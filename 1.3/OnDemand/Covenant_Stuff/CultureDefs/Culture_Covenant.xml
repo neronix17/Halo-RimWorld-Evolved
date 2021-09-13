@@ -2,14 +2,14 @@
 <Defs>
 
 	<CultureDef>
-		<defName>O21_OR_CultureCovenant</defName>
+		<defName>O21_Halo_CultureCovenant</defName>
 		<label>great journey</label>
 		<description>.</description>
-		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_IdeoCovenant</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_DeityCovenant</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_DeityTypeMakerCovenant</deityTypeMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_LeaderTitleMakerCovenant</leaderTitleMaker>
-		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_OR_NamerFestivalCovenant</festivalNameMaker>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_HALO_IdeoCovenant</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_HALO_DeityCovenant</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">O21_HALO_DeityTypeMakerCovenant</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">O21_HALO_LeaderTitleMakerCovenant</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">O21_HALO_NamerFestivalCovenant</festivalNameMaker>
 		<allowedPlaceTags>
 			<li>O21_Halo_OriginCovenant</li>
 		</allowedPlaceTags>
@@ -17,7 +17,7 @@
 		<iconColor>(0.8, 0.8, 0.8)</iconColor>
 		<thingStyleCategories>
 			<!-- <li MayRequire="Ludeon.RimWorld.Ideology">
-				<category>O21_OR_StyleCovenant</category>
+				<category>O21_HALO_StyleCovenant</category>
 				<priority>2</priority>
 			</li> -->
 		</thingStyleCategories>
@@ -56,7 +56,7 @@
 	</CultureDef>
 
 	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>O21_OR_IdeoCovenant</defName>
+		<defName>O21_HALO_IdeoCovenant</defName>
 		<rulePack>
 			<rulesStrings>
 				<!-- From symbol pack -->
@@ -75,7 +75,7 @@
 	</RulePackDef>
 
 	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>O21_OR_DeityCovenant</defName>
+		<defName>O21_HALO_DeityCovenant</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>r_deityName->Librarian</li>
@@ -84,7 +84,7 @@
 	</RulePackDef>
 
 	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>O21_OR_DeityTypeMakerCovenant</defName>
+		<defName>O21_HALO_DeityTypeMakerCovenant</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>r_deityType->Forerunner</li>
@@ -95,7 +95,7 @@
 	</RulePackDef>
 
 	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>O21_OR_LeaderTitleMakerCovenant</defName>
+		<defName>O21_HALO_LeaderTitleMakerCovenant</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>r_leaderTitle->prophet</li>
@@ -104,7 +104,7 @@
 	</RulePackDef>
 
 	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>O21_OR_NamerFestivalCovenant</defName>
+		<defName>O21_HALO_NamerFestivalCovenant</defName>
 		<include>
 			<li>NamerFestivalGlobal</li>
 		</include>

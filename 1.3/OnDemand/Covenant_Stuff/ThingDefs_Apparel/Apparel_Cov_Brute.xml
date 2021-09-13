@@ -200,7 +200,7 @@
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteSkullcap">
 		<defName>O21_Halo_Cov_BruteSkullcap</defName>
-		<label>brute skullcap</label>
+		<label>brute minor skullcap</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
@@ -253,7 +253,7 @@
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="CovBruteHelmet">
 		<defName>O21_Halo_Cov_BruteHelmetMinor</defName>
-		<label>brute minor helmet</label>
+		<label>brute major helmet</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>
@@ -306,7 +306,7 @@
 
 	<ThingDef ParentName="CovBruteHelmet">
 		<defName>O21_Halo_Cov_BruteHelmetMajor</defName>
-		<label>brute major helmet</label>
+		<label>brute captain helmet</label>
 		<techLevel>Spacer</techLevel>
 		<description>TODO.</description>
 		<graphicData>

@@ -52,40 +52,60 @@
 		</maxPawnCostPerTotalPointsCurve>
 		<pawnGroupMakers>
 			<li>
+				<!-- Elite Led -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<O21_OR_ChissAscendancy_Syndic>1</O21_OR_ChissAscendancy_Syndic>
-					<O21_OR_ChissAscendancy_Officer>2</O21_OR_ChissAscendancy_Officer>
-					<O21_OR_ChissAscendancy_Trooper>20</O21_OR_ChissAscendancy_Trooper>
+					<O21_Halo_CovenantGrunt>40</O21_Halo_CovenantGrunt>
+					<O21_Halo_CovenantHeavyGrunt>2</O21_Halo_CovenantHeavyGrunt>
+					<O21_Halo_CovenantJackal>10</O21_Halo_CovenantJackal>
+					<O21_Halo_CovenantEliteMinor>10</O21_Halo_CovenantEliteMinor>
+					<O21_Halo_CovenantEliteMajor>2</O21_Halo_CovenantEliteMajor>
+					<O21_Halo_CovenantEliteUltra>1</O21_Halo_CovenantEliteUltra>
+				</options>
+			</li>
+			<li>
+				<!-- Brute Led -->
+				<kindDef>Combat</kindDef>
+				<options>
+					<O21_Halo_CovenantGrunt>40</O21_Halo_CovenantGrunt>
+					<O21_Halo_CovenantJackal>10</O21_Halo_CovenantJackal>
+					<O21_Halo_CovenantBruteMinor>10</O21_Halo_CovenantBruteMinor>
+					<O21_Halo_CovenantBruteMajor>2</O21_Halo_CovenantBruteMajor>
+					<O21_Halo_CovenantBruteCaptain>1</O21_Halo_CovenantBruteCaptain>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<O21_OR_ChissAscendancy_Syndic>1</O21_OR_ChissAscendancy_Syndic>
-					<O21_OR_ChissAscendancy_Officer>2</O21_OR_ChissAscendancy_Officer>
-					<O21_OR_ChissAscendancy_Trooper>20</O21_OR_ChissAscendancy_Trooper>
+					<O21_Halo_CovenantGrunt>40</O21_Halo_CovenantGrunt>
+					<O21_Halo_CovenantJackal>10</O21_Halo_CovenantJackal>
+					<O21_Halo_CovenantEliteMajor>2</O21_Halo_CovenantEliteMajor>
+					<O21_Halo_CovenantEliteCommander>1</O21_Halo_CovenantEliteCommander>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<O21_OR_ChissAscendancy_Trader>1</O21_OR_ChissAscendancy_Trader>
+					<O21_Halo_CovenantGruntTrader>1</O21_Halo_CovenantGruntTrader>
 				</traders>
 				<carriers>
 					<Muffalo>4</Muffalo>
 				</carriers>
 				<guards>
-					<O21_OR_ChissAscendancy_Officer>1</O21_OR_ChissAscendancy_Officer>
-					<O21_OR_ChissAscendancy_Trooper>10</O21_OR_ChissAscendancy_Trooper>
+					<O21_Halo_CovenantGrunt>10</O21_Halo_CovenantGrunt>
+					<O21_Halo_CovenantEliteMajor>2</O21_Halo_CovenantEliteMajor>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<O21_OR_ChissAscendancy_Syndic>1</O21_OR_ChissAscendancy_Syndic>
-					<O21_OR_ChissAscendancy_Officer>3</O21_OR_ChissAscendancy_Officer>
-					<O21_OR_ChissAscendancy_Trooper>20</O21_OR_ChissAscendancy_Trooper>
+					<O21_Halo_CovenantGrunt>40</O21_Halo_CovenantGrunt>
+					<O21_Halo_CovenantHeavyGrunt>2</O21_Halo_CovenantHeavyGrunt>
+					<O21_Halo_CovenantJackal>10</O21_Halo_CovenantJackal>
+					<O21_Halo_CovenantEliteMinor>10</O21_Halo_CovenantEliteMinor>
+					<O21_Halo_CovenantEliteMajor>2</O21_Halo_CovenantEliteMajor>
+					<O21_Halo_CovenantEliteUltra>1</O21_Halo_CovenantEliteUltra>
+					<O21_Halo_CovenantEliteCommander>1</O21_Halo_CovenantEliteCommander>
 				</options>
 			</li>
 		</pawnGroupMakers>
@@ -98,26 +118,16 @@
 			<li>O21_Halo_CultureCovenant</li>
 		</allowedCultures>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">O21_OR_MemeBendu</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing</li>
 		</requiredMemes>
 		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
 		</disallowedPrecepts>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
