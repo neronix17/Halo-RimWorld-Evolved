@@ -29,8 +29,8 @@
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<MarketValue>500</MarketValue>
-			<Insulation_Cold>30</Insulation_Cold>
-			<Insulation_Heat>30</Insulation_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<tradeTags>
@@ -86,9 +86,9 @@
 			<Mass>2.5</Mass>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<tradeTags>
@@ -146,9 +146,9 @@
 			<Mass>1</Mass>
 			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tradeTags>
@@ -188,7 +188,7 @@
 			<color>(101, 101, 120)</color>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/BrutePauldronsMajor/Apparel</wornGraphicPath>
@@ -225,9 +225,9 @@
 			<Mass>1.4</Mass>
 			<WorkToMake>4500</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
@@ -263,7 +263,7 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -278,9 +278,9 @@
 			<Mass>1.4</Mass>
 			<WorkToMake>4500</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.63</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.08</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
@@ -315,7 +315,7 @@
 			<color>(101, 101, 120)</color>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>O21_Halo_CovenantAdvancedArmor</researchPrerequisite>
+			<researchPrerequisite>O21_Halo_CovenantArmor</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/BruteHelmetMajor/Normal</wornGraphicPath>

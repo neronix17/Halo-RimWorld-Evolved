@@ -42,7 +42,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Grunt">
 		<defName>O21_Halo_Grunt</defName>
 		<label>Grunt</label>
-		<description>TODO</description>
+		<description>An short statured intelligent and cowardly race often seen as outwardly unintelligent due to their hyperactive temperment.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>

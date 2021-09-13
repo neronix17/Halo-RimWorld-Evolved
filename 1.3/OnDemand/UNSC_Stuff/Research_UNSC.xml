@@ -13,7 +13,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCConstruction</defName>
 		<label>UNSC Construction</label>
 		<description>Unlocks blueprints for building various UNSC structures and furniture.</description>
@@ -23,9 +23,9 @@
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCTurrets</defName>
 		<label>UNSC Turrets</label>
 		<description>Unlocks blueprints for building UNSC turrets.</description>
@@ -36,9 +36,9 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCShielding</defName>
 		<label>UNSC Shielding</label>
 		<description>Unlocks blueprints for building UNSC shield generators.</description>
@@ -46,9 +46,9 @@
 		<prerequisites>
 			<li>O21_Halo_UNSCTurrets</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
 	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCWeapons</defName>
@@ -76,7 +76,7 @@
 	
 	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCArmor</defName>
-		<label>UNSC Armor</label>
+		<label>UNSC Marine Armor</label>
 		<description>Unlocks basic UNSC armors.</description>
 		<baseCost>1500</baseCost>
 		<prerequisites>
@@ -86,9 +86,9 @@
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCAdvancedArmor</defName>
-		<label>UNSC Advanced Armor</label>
+		<label>ODST Armor</label>
 		<description>Unlocks advanced UNSC armors.</description>
 		<baseCost>1500</baseCost>
 		<prerequisites>
@@ -96,9 +96,9 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>1.5</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCExplosives</defName>
 		<label>UNSC Explosives</label>
 		<description>Unlocks grenades and grenade belts used by the UNSC.</description>
@@ -108,9 +108,9 @@
 		</prerequisites>
 		<researchViewX>3</researchViewX>
 		<researchViewY>1.5</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCSpartanFormula</defName>
 		<label>Spartan Formula</label>
 		<description>Unlocks an injectable formula which will turn any pawn into a powerful super soldier.</description>
@@ -120,11 +120,11 @@
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>2</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
-		<defName>O21_Halo_UNSCArmor</defName>
-		<label>UNSC Spartan Armor</label>
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+		<defName>O21_Halo_UNSCSpartanArmor</defName>
+		<label>Spartan Armor</label>
 		<description>Unlocks armor usable by pawns after taking the spartan formula.</description>
 		<baseCost>2600</baseCost>
 		<prerequisites>
@@ -133,6 +133,6 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>2</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 
 </Defs>

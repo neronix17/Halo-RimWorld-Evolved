@@ -42,7 +42,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Jackal">
 		<defName>O21_Halo_Jackal</defName>
 		<label>Jackal</label>
-		<description>TODO</description>
+		<description>An avian/reptile race with incredible eyesight and weak bodies.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>

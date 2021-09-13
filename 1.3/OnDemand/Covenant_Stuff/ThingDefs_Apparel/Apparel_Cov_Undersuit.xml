@@ -29,8 +29,8 @@
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
 			<MarketValue>500</MarketValue>
-			<Insulation_Cold>30</Insulation_Cold>
-			<Insulation_Heat>30</Insulation_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<tradeTags>

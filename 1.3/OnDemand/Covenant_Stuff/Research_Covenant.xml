@@ -9,11 +9,11 @@
 		<prerequisites>
 			<li>Fabrication</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantConstruction</defName>
 		<label>Covenant Construction</label>
 		<description>Unlocks blueprints for building various Covenant structures and furniture.</description>
@@ -21,11 +21,11 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantArmory</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantTurrets</defName>
 		<label>Covenant Turrets</label>
 		<description>Unlocks blueprints for building Covenant turrets.</description>
@@ -34,11 +34,11 @@
 			<li>O21_Halo_CovenantConstruction</li>
 			<li>O21_Halo_CovenantWeapons</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantShielding</defName>
 		<label>Covenant Shielding</label>
 		<description>Unlocks blueprints for building Covenant shield generators.</description>
@@ -46,9 +46,9 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantTurrets</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
 	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantWeapons</defName>
@@ -58,7 +58,7 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantArmory</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
@@ -70,7 +70,7 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantWeapons</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
@@ -82,11 +82,11 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantArmory</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantAdvancedArmor</defName>
 		<label>Covenant Advanced Armor</label>
 		<description>Unlocks advanced Covenant armors.</description>
@@ -94,11 +94,11 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantArmor</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>1.5</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 	
-	<ResearchProjectDef ParentName="O21HaloResearch">
+	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantExplosives</defName>
 		<label>Covenant Explosives</label>
 		<description>Unlocks grenades and grenade belts used by the Covenant.</description>
@@ -106,8 +106,8 @@
 		<prerequisites>
 			<li>O21_Halo_CovenantWeapons</li>
 		</prerequisites>
-		<researchViewX>3</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>1.5</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 
 </Defs>

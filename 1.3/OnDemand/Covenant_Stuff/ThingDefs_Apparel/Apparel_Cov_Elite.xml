@@ -29,9 +29,9 @@
 			<Mass>2.5</Mass>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<tradeTags>
@@ -89,9 +89,9 @@
 			<Mass>1</Mass>
 			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tradeTags>
@@ -147,9 +147,9 @@
 			<Mass>1.4</Mass>
 			<WorkToMake>4500</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<apparel>
@@ -172,23 +172,5 @@
 			<color>(81,110,157)</color>
 		</colorGenerator>
 	</ThingDef>
-
-	<!-- <ThingDef ParentName="CovEliteHelmet">
-		<defName>O21_Halo_Cov_EliteHelmetMajor</defName>
-		<label>elite major helmet</label>
-		<techLevel>Spacer</techLevel>
-		<description>TODO.</description>
-		<graphicData>
-			<texPath>HaloRE/Apparel/EliteHelmetMajor/Head</texPath>
-			<graphicClass>Graphic_Single</graphicClass> 
-			<color>(84, 93, 83)</color>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>HaloRE/Apparel/EliteHelmetMajor/Head</wornGraphicPath>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_Single">
-			<color>(84, 93, 83)</color>
-		</colorGenerator>
-	</ThingDef> -->
 
 </Defs>

@@ -42,7 +42,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Elite">
 		<defName>O21_Halo_Elite</defName>
 		<label>Elite</label>
-		<description>TODO</description>
+		<description>A saurian race known for their honor and prowess as warriors.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>

@@ -42,7 +42,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_Halo_Brute">
 		<defName>O21_Halo_Brute</defName>
 		<label>Brute</label>
-		<description>TODO</description>
+		<description>A large ape like race, prone to aggression and displays of strength.</description>
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.90</maleGenderProbability>
