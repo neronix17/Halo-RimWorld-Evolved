@@ -13,7 +13,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCConstruction</defName>
 		<label>UNSC Construction</label>
 		<description>Unlocks blueprints for building various UNSC structures and furniture.</description>
@@ -23,9 +23,9 @@
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef> -->
+	</ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCTurrets</defName>
 		<label>UNSC Turrets</label>
 		<description>Unlocks blueprints for building UNSC turrets.</description>
@@ -36,7 +36,7 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef> -->
+	</ResearchProjectDef>
 	
 	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_UNSCShielding</defName>
