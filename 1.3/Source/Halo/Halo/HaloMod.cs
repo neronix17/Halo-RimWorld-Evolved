@@ -21,11 +21,12 @@ namespace Halo
         {
             settings = GetSettings<HaloSettings>();
             mod = this;
+            Log.Message("O21 :: Halo: RimWorld Evolved Initialised :: 1.0.1 [DevBuild]");
         }
 
         public override string SettingsCategory()
         {
-            return "Halo - RimWorld Evolved";
+            return "Halo: RimWorld Evolved";
         }
 
         public override void DoSettingsWindowContents(Rect inRect)
@@ -33,7 +34,7 @@ namespace Halo
             float secondStageHeight;
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
-            listingStandard.Note("Changing Factions requires a restart to take effect. You should NEVER disable options mid-save, it's the same as uninstalling that part of the mod and can have severe consequences, no support will be provided if you do this and if anything you'll be actively mocked for it.", GameFont.Small);
+            listingStandard.Note("Changing settings requires a restart to take effect. You should NEVER disable options mid-save, it's the same as uninstalling that part of the mod and can have severe consequences, no support will be provided if you do this and if anything you'll be actively mocked for it.", GameFont.Tiny);
             listingStandard.GapLine();
             secondStageHeight = listingStandard.CurHeight;
             listingStandard.End();

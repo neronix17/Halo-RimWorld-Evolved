@@ -33,6 +33,9 @@
 			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
 		<tradeTags>
 			<li>CovApparel</li>
 		</tradeTags>
@@ -91,6 +94,9 @@
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<tradeTags>
 			<li>CovApparel</li>
 		</tradeTags>
@@ -151,6 +157,9 @@
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<tradeTags>
 			<li>CovApparel</li>
 		</tradeTags>

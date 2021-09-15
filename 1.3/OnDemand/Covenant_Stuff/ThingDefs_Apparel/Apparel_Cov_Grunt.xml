@@ -37,6 +37,9 @@
 		<tradeTags>
 			<li>CovApparel</li>
 		</tradeTags>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<wornGraphicPath>HaloRE/Apparel/GruntArmor/Apparel</wornGraphicPath>
 			<layers>
@@ -94,6 +97,9 @@
 			<ArmorRating_Heat>1.08</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<tradeTags>
 			<li>CovApparel</li>
 		</tradeTags>
