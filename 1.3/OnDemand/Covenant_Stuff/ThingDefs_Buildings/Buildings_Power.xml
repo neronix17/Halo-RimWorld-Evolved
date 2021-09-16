@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>O21_Halo_CovEnergyCell</defName>
+		<label>covenant energy cell</label>
+		<description>Generates free energy, forever, without using fuel. This technology is developed by archotechs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in the quantum foam.</description>
+		<graphicData>
+			<texPath>HaloRE/Building/CovEnergyCell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>42</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<canOverlapZones>false</canOverlapZones>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>8</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1, 1)</size>
+		<designationCategory>O21_Halo_Halo</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-200</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>6.5</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.05</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(148, 217, 235,0)</glowColor>
+			</li>
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<researchPrerequisites>
+			<li>O21_Halo_CovenantConstruction</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

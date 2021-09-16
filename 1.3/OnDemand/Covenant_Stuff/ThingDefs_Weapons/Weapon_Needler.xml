@@ -110,8 +110,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>O21_Halo_Damage_Needler</damageDef>
-			<damageAmountBase>4</damageAmountBase>
-			<armorPenetrationBase>0.16</armorPenetrationBase>
+			<damageAmountBase>3</damageAmountBase>
+			<armorPenetrationBase>0.18</armorPenetrationBase>
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>

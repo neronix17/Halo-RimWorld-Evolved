@@ -13,7 +13,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantConstruction</defName>
 		<label>Covenant Construction</label>
 		<description>Unlocks blueprints for building various Covenant structures and furniture.</description>
@@ -23,9 +23,9 @@
 		</prerequisites>
 		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef> -->
+	</ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
+	<ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantTurrets</defName>
 		<label>Covenant Turrets</label>
 		<description>Unlocks blueprints for building Covenant turrets.</description>
@@ -36,7 +36,7 @@
 		</prerequisites>
 		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef> -->
+	</ResearchProjectDef>
 	
 	<!-- <ResearchProjectDef ParentName="O21HaloResearch">
 		<defName>O21_Halo_CovenantShielding</defName>

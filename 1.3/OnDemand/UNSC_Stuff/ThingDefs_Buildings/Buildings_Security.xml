@@ -90,7 +90,6 @@
 			<li>PlaceWorker_ShowTurretRadius</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
-		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
 			<li>O21_Halo_UNSCTurrets</li>
 		</researchPrerequisites>
