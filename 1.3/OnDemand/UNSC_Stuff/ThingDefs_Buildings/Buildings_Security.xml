@@ -73,7 +73,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<costList>
 			<Steel>100</Steel>
-			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>O21_Halo_Halo</designationCategory>
