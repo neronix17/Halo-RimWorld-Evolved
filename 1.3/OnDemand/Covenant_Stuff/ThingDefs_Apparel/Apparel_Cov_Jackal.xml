@@ -29,9 +29,9 @@
 			<Mass>2.5</Mass>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>600</MaxHitPoints>
-			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.00</ArmorRating_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<thingCategories>

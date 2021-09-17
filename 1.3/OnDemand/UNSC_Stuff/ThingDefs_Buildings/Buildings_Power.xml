@@ -57,7 +57,7 @@
 		</thingSetMakerTags>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<researchPrerequisites>
-			<li>O21_Halo_CovenantConstruction</li>
+			<li>O21_Halo_UNSCConstruction</li>
 		</researchPrerequisites>
 	</ThingDef>
 
