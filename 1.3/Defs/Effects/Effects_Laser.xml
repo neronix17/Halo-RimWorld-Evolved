@@ -48,7 +48,7 @@
 			<li>
 				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
 				<positionRadius>0.02</positionRadius>
-				<moteDef>Mote_SparkThrownFast</moteDef>
+				<fleckDef>MicroSparksFast</fleckDef>
 				<burstCount>
 					<min>4</min>
 					<max>5</max>
