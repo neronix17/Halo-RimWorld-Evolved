@@ -70,7 +70,7 @@
 			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<specialDisplayRadius>40</specialDisplayRadius>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<building>
@@ -213,7 +213,7 @@
 			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<specialDisplayRadius>40</specialDisplayRadius>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<building>

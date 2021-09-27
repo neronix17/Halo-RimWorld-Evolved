@@ -41,7 +41,7 @@
 			<isSittable>true</isSittable>
 		</building>
 		<uiIconOffset>(0, -0.05)</uiIconOffset>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<researchPrerequisites>
 			<li>O21_Halo_CovenantConstruction</li>
 		</researchPrerequisites>

@@ -59,7 +59,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<placeWorkers>

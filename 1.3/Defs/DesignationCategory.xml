@@ -2,7 +2,7 @@
 <Defs>
 
 	<DesignationCategoryDef>
-		<defName>O21_Halo_Halo</defName>
+		<defName>O21_Halo</defName>
 		<label>Halo</label>
 		<order>500</order>
 		<specialDesignatorClasses>

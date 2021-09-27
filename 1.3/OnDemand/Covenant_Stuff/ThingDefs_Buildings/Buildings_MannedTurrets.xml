@@ -76,7 +76,7 @@
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<building>
 			<combatPower>45</combatPower> <!-- same as a scavenger -->
@@ -227,7 +227,7 @@
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<building>
 			<combatPower>45</combatPower> <!-- same as a scavenger -->

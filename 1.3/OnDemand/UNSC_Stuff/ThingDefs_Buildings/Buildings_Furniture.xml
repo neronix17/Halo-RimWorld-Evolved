@@ -34,7 +34,7 @@
 		<costList>
 			<Steel>25</Steel>
 		</costList>
-		<designationCategory>O21_Halo_Halo</designationCategory>
+		<designationCategory>O21_Halo</designationCategory>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<pathCost>30</pathCost>
 		<fillPercent>0.20</fillPercent>
