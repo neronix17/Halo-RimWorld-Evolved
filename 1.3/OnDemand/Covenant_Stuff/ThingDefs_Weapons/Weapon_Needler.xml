@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingStyleDef>
@@ -32,9 +32,9 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>O21_Halo_WorkbenchCov</li>
-            </recipeUsers>
+			<recipeUsers Inherit="False">
+				<li>O21_Halo_WorkbenchCov</li>
+			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>
@@ -112,8 +112,14 @@
 			<damageDef>O21_Halo_Damage_Needler</damageDef>
 			<damageAmountBase>3</damageAmountBase>
 			<armorPenetrationBase>0.18</armorPenetrationBase>
-			<speed>80</speed>
+			<speed>55</speed>
 		</projectile>
+		<comps>
+			<li Class="O21Toolbox.Projectiles.CompProperties_Homing">
+				<recalculationInterval>3</recalculationInterval>
+				<chance>0.3</chance>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>

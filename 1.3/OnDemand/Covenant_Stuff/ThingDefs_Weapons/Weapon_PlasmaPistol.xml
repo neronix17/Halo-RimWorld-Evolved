@@ -117,6 +117,12 @@
 				</li>
 			</extraDamages>
 		</projectile>
+		<comps>
+			<li Class="O21Toolbox.Projectiles.CompProperties_Homing">
+				<recalculationInterval>10</recalculationInterval>
+				<chance>0.1</chance>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>
