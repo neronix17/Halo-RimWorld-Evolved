@@ -46,9 +46,9 @@ namespace Halo
             ModContentPack modContentPack = HaloMod.mod.Content;
             foreach (string text in folders)
             {
-                if (LoadDefsInto(xml, modContentPack, text))
+                if (LoadDefsInto(xml, modContentPack, text) && HaloMod.settings.debugMode)
                 {
-                    Log.Message(modContentPack.Name + " :: Loading " + text);
+                    LogUtil.LogMessage("Loading " + text);
                 }
             }
             return true;
@@ -65,7 +65,7 @@ namespace Halo
             {
                 if (!autoload)
                 {
-                    Log.Warning(string.Concat(new string[]
+                    LogUtil.LogWarning(string.Concat(new string[]
                     {
                         content.Name,
                         " is trying to load non-existant folder ",

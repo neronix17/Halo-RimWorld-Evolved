@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
 
 using UnityEngine;
 using RimWorld;
@@ -16,12 +18,20 @@ namespace Halo
     {
         public static HaloSettings settings;
         public static HaloMod mod;
+        internal static string VersionDir => Path.Combine(ModLister.GetActiveModWithIdentifier("neronix17.haloevolved").RootDir.FullName, "Version.txt");
+        public static string CurrentVersion { get; private set; }
 
         public HaloMod(ModContentPack content) : base(content)
         {
             settings = GetSettings<HaloSettings>();
             mod = this;
-            Log.Message("O21 :: Halo: RimWorld Evolved Initialised :: 1.0.1 [DevBuild]");
+
+            Version version = Assembly.GetExecutingAssembly().GetName().Version;
+            CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
+
+            LogUtil.LogMessage($"Version: {CurrentVersion} ::");
+
+            File.WriteAllText(VersionDir, CurrentVersion);
         }
 
         public override string SettingsCategory()
@@ -86,6 +96,8 @@ namespace Halo
 
     public class HaloSettings : ModSettings
     {
+        public bool debugMode = false;
+
         public bool content_humans = true;
         public bool faction_unsc = true;
         public bool faction_innies = true;
