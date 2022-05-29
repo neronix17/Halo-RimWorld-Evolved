@@ -8,6 +8,8 @@ using UnityEngine;
 using RimWorld;
 using Verse;
 
+using O21Toolbox;
+
 namespace Halo
 {
     [StaticConstructorOnStartup]
@@ -15,7 +17,7 @@ namespace Halo
     {
         static HaloStartup()
         {
-            HaloSettings settings = HaloMod.settings;
+            OnDemandUtil.FixOnDemandDefs("O21_Halo_", HaloMod.mod.Content);
         }
     }
 }
