@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_RocketExplosion</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/UNSC/Rocket_Launcher_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>
+					<max>100.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>O21_Halo_UNSC_SpartanLaserExplosion</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/UNSC/Spartan_Laser_Impact</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>30.0</min>
+					<max>100.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
